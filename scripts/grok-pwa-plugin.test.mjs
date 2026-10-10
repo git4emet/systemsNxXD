@@ -6,9 +6,9 @@ import { fileURLToPath } from "node:url";
 import test from "node:test";
 import {
   appNameFromHost,
-  createHeadInjector,
+  createHeadInjector as createRawHeadInjector,
   grokXCreatorHeadTags,
-  injectGrokPwaHead,
+  injectGrokPwaHead as injectRawGrokPwaHead,
   isDocumentPath,
   isInstallQuery,
   publicAppHost,
@@ -20,6 +20,15 @@ import {
 import { renderInstallPage } from "./grok-pwa-plugin.mjs";
 
 const TEMPLATE_ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
+// Head-injection unit tests use an empty fixture rather than this app's identity.
+const TEST_CWD = mkdtempSync(join(tmpdir(), "grok-head-tests-"));
+function injectGrokPwaHead(html, ctx = {}) {
+  return injectRawGrokPwaHead(html, { cwd: TEST_CWD, site: {}, ...ctx });
+}
+function createHeadInjector(ctx = {}) {
+  return createRawHeadInjector({ cwd: TEST_CWD, site: {}, ...ctx });
+}
+
 
 test("injects before </head>", () => {
   const out = injectGrokPwaHead("<html><head><title>x</title></head><body></body></html>");
@@ -503,4 +512,5 @@ test("vite plugin bakes og identity as a virtual module", () => {
   assert.match(plugin, /virtual:grok-og-identity/);
   assert.match(plugin, /snapshotOgIdentity/);
 });
+
 
