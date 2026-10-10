@@ -1,0 +1,880 @@
+{
+  "version": 1,
+  "observedAt": "2026-10-10",
+  "repositories": [
+    {
+      "id": "1023733928",
+      "name": "DoinBetter-Floodwater",
+      "repository": "git4emet/DoinBetter-Floodwater",
+      "branch": "main",
+      "commit": "991409a09f26c8c648003da468195ecaeeac4d2f",
+      "aliases": [
+        "docs/hypermetadynamic-unified-overlay.html"
+      ],
+      "upstream": null,
+      "facet": "field",
+      "implemented": "README, skills matrix and HTML integration documentation",
+      "role": "AET/GSOC and floodwater capability contracts",
+      "runtimeName": "docs/hypermetadynamic-unified-overlay.html",
+      "requirements": "Documentation can be opened; floodwater execution provider must be supplied",
+      "source": {
+        "path": "README.md",
+        "sha": "a67c51077bccd500c502a5308e170a6d3796bb07"
+      },
+      "relatedRepositoryIds": [],
+      "pending": [
+        {
+          "number": 2,
+          "commit": "309eb938e26198d80773e3a29068147641f1e1fc",
+          "path": "contracts/artifact_event_schema.json",
+          "description": "Artifact schema and OpenAPI contract",
+          "url": "https://github.com/git4emet/DoinBetter-Floodwater/pull/2"
+        }
+      ]
+    },
+    {
+      "id": "1023734773",
+      "name": "DoinBetter-ALTA-Survey",
+      "repository": "git4emet/DoinBetter-ALTA-Survey",
+      "branch": "main",
+      "commit": "0dd9a2630e19c2eb0469f12a9c2f29e191bb0de7",
+      "aliases": [
+        "README.md"
+      ],
+      "upstream": null,
+      "facet": "field",
+      "implemented": "Default branch contains the ALTA README",
+      "role": "Survey context and research inputs",
+      "runtimeName": "README.md",
+      "requirements": "Executable simulation is in open PR #1, not default branch",
+      "source": {
+        "path": "README.md",
+        "sha": "a71101fe0d7fadbda5ef46b24b885f9c0e9440bd"
+      },
+      "relatedRepositoryIds": [],
+      "pending": [
+        {
+          "number": 1,
+          "commit": "f79780f80a4738c28bef1b4405f30778c044f375",
+          "path": "research/esp32_mesh_gpu_simulation.py",
+          "description": "Python ESP32 computation simulation",
+          "url": "https://github.com/git4emet/DoinBetter-ALTA-Survey/pull/1"
+        }
+      ]
+    },
+    {
+      "id": "1023735450",
+      "name": "DoinBetter-Fractal-Whisper",
+      "repository": "git4emet/DoinBetter-Fractal-Whisper",
+      "branch": "main",
+      "commit": "60c0bddb48db39fdf5334ff5df777761999262df",
+      "aliases": [
+        "README.md"
+      ],
+      "upstream": null,
+      "facet": "capture",
+      "implemented": "Default branch contains the Whisper README",
+      "role": "Voice and text input adapter",
+      "runtimeName": "README.md",
+      "requirements": "Python handlers and voice UI are on separate open PR branches",
+      "source": {
+        "path": "README.md",
+        "sha": "4ef85601514f7f5cd5d987f774dfd733bd44a086"
+      },
+      "relatedRepositoryIds": [],
+      "pending": [
+        {
+          "number": 3,
+          "commit": "4f3f713df5c7d6ffdd7776b8c59bedac0584cc00",
+          "path": "poe_orchestrator.py",
+          "description": "Python handler registry, CLI and SQLite event log",
+          "url": "https://github.com/git4emet/DoinBetter-Fractal-Whisper/pull/3"
+        },
+        {
+          "number": 10,
+          "commit": "1a539430bdd7fdb32aa8c6bda550aa7011333266",
+          "path": "ui/buddy_voice_bridge_ui.jsx",
+          "description": "React text filtering prototype; requires adapter changes for current architecture",
+          "url": "https://github.com/git4emet/DoinBetter-Fractal-Whisper/pull/10"
+        }
+      ]
+    },
+    {
+      "id": "1213947077",
+      "name": "mobiius-ops-console",
+      "repository": "git4emet/mobiius-ops-console",
+      "branch": "main",
+      "commit": "11f43ef8bb25433241ac18378d0f8b848f5e2f61",
+      "aliases": [
+        "mockIntakePackets"
+      ],
+      "upstream": null,
+      "facet": "adapter",
+      "implemented": "React operations console using mock intake, RAG and bridge data",
+      "role": "Project operations projection",
+      "runtimeName": "mockIntakePackets",
+      "requirements": "Browser; real data providers must be connected separately",
+      "source": {
+        "path": "src/lib/mock-data.ts",
+        "sha": "a520ccf910216f0f0febb6d39d55b4d184cd455a"
+      },
+      "relatedRepositoryIds": [],
+      "pending": [
+        {
+          "number": 1,
+          "commit": "a027656bcd25469afd03a6f9a8da91b843f9c2cf",
+          "path": "docs/peer-desktops.json",
+          "description": "Reciprocal peer desktop registry",
+          "url": "https://github.com/git4emet/mobiius-ops-console/pull/1"
+        }
+      ]
+    },
+    {
+      "id": "1279571624",
+      "name": "nextjs-boilerplate",
+      "repository": "git4emet/nextjs-boilerplate",
+      "branch": "main",
+      "commit": "98a08a32687be558119af3a1098fd8781a7b1ddc",
+      "aliases": [
+        "Home"
+      ],
+      "upstream": null,
+      "facet": "projection",
+      "implemented": "Next.js starter page",
+      "role": "Reusable web projection template",
+      "runtimeName": "Home",
+      "requirements": "Node and Next.js; no domain-specific transform yet",
+      "source": {
+        "path": "app/page.tsx",
+        "sha": "3f36f7c5c4cfb7fb3c745bfd7d38b2d21a8c441d"
+      },
+      "relatedRepositoryIds": [],
+      "pending": []
+    },
+    {
+      "id": "1291644311",
+      "name": "message4k2O0254PartyLine",
+      "repository": "git4emet/message4k2O0254PartyLine",
+      "branch": "main",
+      "commit": "3387c0887d8e14fe2ca2ac7420a12d5e289db194",
+      "aliases": [
+        "generateCommitMessage",
+        "sylwia-lask/friendly-commit-messages"
+      ],
+      "upstream": "sylwia-lask/friendly-commit-messages",
+      "facet": "communication",
+      "implemented": "Commit-message generation in a browser worker",
+      "role": "PartyLine message transform",
+      "runtimeName": "generateCommitMessage",
+      "requirements": "Browser worker and downloaded model weights",
+      "source": {
+        "path": "src/logic/commitMessageModel.ts",
+        "sha": "ebcf0d306570f9b665e513750fcd9f2205ee127e"
+      },
+      "relatedRepositoryIds": [
+        "1412748309"
+      ],
+      "pending": []
+    },
+    {
+      "id": "1291646888",
+      "name": "Meta-HyperwebMCaPiB0xG0PHiRayTracing",
+      "repository": "git4emet/Meta-HyperwebMCaPiB0xG0PHiRayTracing",
+      "branch": "main",
+      "commit": "1094c53ba0d49a7a2b4b2f6fb46374034cdfedbd",
+      "aliases": [
+        "registerWebMcpTools",
+        "sylwia-lask/ai-ceo-webMCP"
+      ],
+      "upstream": "sylwia-lask/ai-ceo-webMCP",
+      "facet": "adapter",
+      "implemented": "Company simulation with browser WebMCP tool registration",
+      "role": "Capability discovery and tool connection",
+      "runtimeName": "registerWebMcpTools",
+      "requirements": "WebMCP-capable browser or supported injection bridge",
+      "source": {
+        "path": "src/webmcp.ts",
+        "sha": "b8212c97edc87be1ab76a824a0817c3cddc1dbb9"
+      },
+      "relatedRepositoryIds": [],
+      "pending": []
+    },
+    {
+      "id": "1291648824",
+      "name": "Shootin-the-Skeet-Scene",
+      "repository": "git4emet/Shootin-the-Skeet-Scene",
+      "branch": "main",
+      "commit": "523395b3a4b5e1f39152d83558dc78725b517bd9",
+      "aliases": [
+        "TextGoesBoom",
+        "sylwia-lask/text-goes-boom"
+      ],
+      "upstream": "sylwia-lask/text-goes-boom",
+      "facet": "projection",
+      "implemented": "Rasterized text becomes particles with GPU and Canvas2D renderers",
+      "role": "Scene and text projection",
+      "runtimeName": "TextGoesBoom",
+      "requirements": "Canvas; WebGPU and WASM for accelerated paths",
+      "source": {
+        "path": "src/App.tsx",
+        "sha": "3625535ceeec9f102fd42282d067c0304c22cf8f"
+      },
+      "relatedRepositoryIds": [],
+      "pending": []
+    },
+    {
+      "id": "1291651074",
+      "name": "Rec-Live-ish",
+      "repository": "git4emet/Rec-Live-ish",
+      "branch": "main",
+      "commit": "7a9b5d4f0f3456253b3362f42778a6033c0737c2",
+      "aliases": [
+        "runCaption",
+        "sylwia-lask/livecam-ai"
+      ],
+      "upstream": "sylwia-lask/livecam-ai",
+      "facet": "capture",
+      "implemented": "Webcam frames captioned locally with Transformers.js",
+      "role": "Field and studio visual observations",
+      "runtimeName": "runCaption",
+      "requirements": "Camera permission, secure origin, model weights and supported inference backend",
+      "source": {
+        "path": "src/main.ts",
+        "sha": "2b5d8dcc3409331b866f548c3fe1917b99650eec"
+      },
+      "relatedRepositoryIds": [],
+      "pending": []
+    },
+    {
+      "id": "1291652776",
+      "name": "webgpu-sieve-sorting-strobe-cam",
+      "repository": "git4emet/webgpu-sieve-sorting-strobe-cam",
+      "branch": "main",
+      "commit": "0f0650863a23663c1f17e7880190dfe41f57d963",
+      "aliases": [
+        "NeonSmokeRenderer",
+        "sylwia-lask/webgpu-neon-demo"
+      ],
+      "upstream": "sylwia-lask/webgpu-neon-demo",
+      "facet": "projection",
+      "implemented": "WebGPU neon smoke simulation with compute shaders",
+      "role": "Interactive projection tiles",
+      "runtimeName": "NeonSmokeRenderer",
+      "requirements": "WebGPU device and canvas",
+      "source": {
+        "path": "src/webgpu/renderer.ts",
+        "sha": "0da6cb0269d7ffcaa85e5cc3c6f57acaec2a3b0a"
+      },
+      "relatedRepositoryIds": [],
+      "pending": []
+    },
+    {
+      "id": "1291654265",
+      "name": "wasm-js-ATBASH-omni-plexing",
+      "repository": "git4emet/wasm-js-ATBASH-omni-plexing",
+      "branch": "main",
+      "commit": "ebc24eed282599a707803a8b2dedba144e3b16b8",
+      "aliases": [
+        "jsFactorialMod",
+        "sylwia-lask/wasm-js-bench"
+      ],
+      "upstream": "sylwia-lask/wasm-js-bench",
+      "facet": "compute",
+      "implemented": "JavaScript/WASM factorial, matrix and image benchmarks",
+      "role": "Transform computation substrate",
+      "runtimeName": "jsFactorialMod",
+      "requirements": "Browser plus built WASM assets; ATBASH is a proposed role",
+      "source": {
+        "path": "frontend/src/lib/logic/factorialMod.ts",
+        "sha": "874507fe60689b3e5afa3b7b0f178228980b3c04"
+      },
+      "relatedRepositoryIds": [],
+      "pending": []
+    },
+    {
+      "id": "1291655705",
+      "name": "webgpu-sieve-sorting-cam-trobe",
+      "repository": "git4emet/webgpu-sieve-sorting-cam-trobe",
+      "branch": "main",
+      "commit": "25d1e6c6bdb77ba2949e61f1afda5cae906a80cb",
+      "aliases": [
+        "GpuMatMul",
+        "sylwia-lask/webgpu-bench"
+      ],
+      "upstream": "sylwia-lask/webgpu-bench",
+      "facet": "compute",
+      "implemented": "JavaScript/WebGPU image, matrix and particle benchmarks",
+      "role": "Compute and image transform substrate",
+      "runtimeName": "GpuMatMul",
+      "requirements": "WebGPU for accelerated paths; these are benchmarks, not camera sorting",
+      "source": {
+        "path": "src/benchmarks/matmul/GpuMatMul.ts",
+        "sha": "d9659a9cb088270e66da62293677aa1ddb8bc499"
+      },
+      "relatedRepositoryIds": [],
+      "pending": []
+    },
+    {
+      "id": "1291712383",
+      "name": "roundcube-contextmenu",
+      "repository": "git4emet/roundcube-contextmenu",
+      "branch": "master",
+      "commit": "36d278baca01d1a5a093bce6ed1befb87cccd60d",
+      "aliases": [
+        "contextmenu",
+        "johndoh/roundcube-contextmenu"
+      ],
+      "upstream": "johndoh/roundcube-contextmenu",
+      "facet": "mail",
+      "implemented": "Roundcube context menus and command hooks",
+      "role": "Point-context action selection",
+      "runtimeName": "contextmenu",
+      "requirements": "Compatible Roundcube installation; plugin folder contextmenu",
+      "source": {
+        "path": "contextmenu.php",
+        "sha": "ae76da6786031e065047567df3b1cb116bfc6b56"
+      },
+      "relatedRepositoryIds": [
+        "1291716239"
+      ],
+      "pending": []
+    },
+    {
+      "id": "1291716239",
+      "name": "roundcubemall",
+      "repository": "git4emet/roundcubemall",
+      "branch": "master",
+      "commit": "e3e95733913a9b97afce8807f7354478a1403721",
+      "aliases": [
+        "roundcubemail",
+        "johndoh/roundcubemail"
+      ],
+      "upstream": "johndoh/roundcubemail",
+      "facet": "mail",
+      "implemented": "PHP Roundcube webmail with IMAP and SMTP",
+      "role": "Mail habitat for shared adapter rooms",
+      "runtimeName": "roundcubemail",
+      "requirements": "PHP, database, IMAP/SMTP; inspect plugin version compatibility",
+      "source": {
+        "path": "index.php",
+        "sha": "f0dc37ac1d544d84f0a7a0e1df3177f04243577f"
+      },
+      "relatedRepositoryIds": [
+        "1291712383",
+        "1291717477",
+        "1291718899",
+        "1291720956",
+        "1291724955",
+        "1291726165",
+        "1291728449"
+      ],
+      "pending": []
+    },
+    {
+      "id": "1291717477",
+      "name": "DoodleShades",
+      "repository": "git4emet/DoodleShades",
+      "branch": "master",
+      "commit": "e4fd2d5ad51e02bb15645945c7ea011431ab09c5",
+      "aliases": [
+        "elastic",
+        "johndoh/roundcube-sample-skin"
+      ],
+      "upstream": "johndoh/roundcube-sample-skin",
+      "facet": "mail",
+      "implemented": "Sample skin extending Roundcube Elastic",
+      "role": "Mail projection theme",
+      "runtimeName": "elastic",
+      "requirements": "Install as a Roundcube skin; preserve metadata inheritance",
+      "source": {
+        "path": "meta.json",
+        "sha": "4451fe8857166387dfaf227738308a55eee07c81"
+      },
+      "relatedRepositoryIds": [
+        "1291716239"
+      ],
+      "pending": []
+    },
+    {
+      "id": "1291718899",
+      "name": "skillcoin-tensorings",
+      "repository": "git4emet/skillcoin-tensorings",
+      "branch": "master",
+      "commit": "34769176bf7c6239b0e4cd4166f54eaa46a077c8",
+      "aliases": [
+        "elasticlayouts",
+        "johndoh/roundcube-elasticlayouts"
+      ],
+      "upstream": "johndoh/roundcube-elasticlayouts",
+      "facet": "mail",
+      "implemented": "Elastic-skin message list layouts",
+      "role": "Mail layout projection",
+      "runtimeName": "elasticlayouts",
+      "requirements": "Compatible Roundcube Elastic skin; plugin folder elasticlayouts",
+      "source": {
+        "path": "elasticlayouts.php",
+        "sha": "9e8270d5f32a4babce91f225291f91625a14774b"
+      },
+      "relatedRepositoryIds": [
+        "1291716239"
+      ],
+      "pending": []
+    },
+    {
+      "id": "1291720956",
+      "name": "fuzzyDice-pointWeightList",
+      "repository": "git4emet/fuzzyDice-pointWeightList",
+      "branch": "master",
+      "commit": "15f9cc4d661473106d61176a63e950a6359a3137",
+      "aliases": [
+        "globaladdressbook",
+        "johndoh/roundcube-globaladdressbook"
+      ],
+      "upstream": "johndoh/roundcube-globaladdressbook",
+      "facet": "mail",
+      "implemented": "SQL-backed shared Roundcube address book",
+      "role": "Shared contact/address capability",
+      "runtimeName": "globaladdressbook",
+      "requirements": "Compatible Roundcube database; plugin folder globaladdressbook",
+      "source": {
+        "path": "globaladdressbook.php",
+        "sha": "6aaed198d2ebc4e2028be741f64496d4154960ae"
+      },
+      "relatedRepositoryIds": [
+        "1291716239"
+      ],
+      "pending": []
+    },
+    {
+      "id": "1291724955",
+      "name": "stateStateColorStates",
+      "repository": "git4emet/stateStateColorStates",
+      "branch": "master",
+      "commit": "7ebd6458733b6141701845130db72fe065a6516d",
+      "aliases": [
+        "taskwatermark",
+        "johndoh/roundcube-taskwatermark"
+      ],
+      "upstream": "johndoh/roundcube-taskwatermark",
+      "facet": "mail",
+      "implemented": "Task-aware Roundcube watermark and contextual tips",
+      "role": "Current-point task projection",
+      "runtimeName": "taskwatermark",
+      "requirements": "Compatible Roundcube; plugin folder taskwatermark",
+      "source": {
+        "path": "taskwatermark.php",
+        "sha": "62cd09fa0248642249c94d45be18c9147a86da00"
+      },
+      "relatedRepositoryIds": [
+        "1291716239"
+      ],
+      "pending": []
+    },
+    {
+      "id": "1291726165",
+      "name": "HeptradiControlFeeds",
+      "repository": "git4emet/HeptradiControlFeeds",
+      "branch": "master",
+      "commit": "6543987929414f89f93afb8023088e8b230bfb56",
+      "aliases": [
+        "swipe",
+        "johndoh/roundcube-swipe"
+      ],
+      "upstream": "johndoh/roundcube-swipe",
+      "facet": "mail",
+      "implemented": "Touch swipe gestures dispatch Roundcube list commands",
+      "role": "Field-friendly mail actions",
+      "runtimeName": "swipe",
+      "requirements": "Compatible Roundcube Elastic skin; plugin folder swipe",
+      "source": {
+        "path": "swipe.php",
+        "sha": "30906ef280b73acb0ff4f1a0226cc7b6ea47bcb4"
+      },
+      "relatedRepositoryIds": [
+        "1291716239"
+      ],
+      "pending": []
+    },
+    {
+      "id": "1291728449",
+      "name": "stochastic-particle-sublimation",
+      "repository": "git4emet/stochastic-particle-sublimation",
+      "branch": "master",
+      "commit": "dc5cac79e7013a65a2c1bc3f8ff30fd8a191187f",
+      "aliases": [
+        "markasjunk2",
+        "johndoh/roundcube-markasjunk2"
+      ],
+      "upstream": "johndoh/roundcube-markasjunk2",
+      "facet": "mail",
+      "implemented": "Legacy spam/ham commands and learning drivers",
+      "role": "Explicit mail classification transform",
+      "runtimeName": "markasjunk2",
+      "requirements": "Legacy Roundcube compatibility; newer core contains markasjunk; not a particle engine",
+      "source": {
+        "path": "markasjunk2.php",
+        "sha": "4d657e641250286c59dc429e9a87cc9b5aa3baad"
+      },
+      "relatedRepositoryIds": [
+        "1291716239"
+      ],
+      "pending": []
+    },
+    {
+      "id": "1292231221",
+      "name": "ContactResumes",
+      "repository": "git4emet/ContactResumes",
+      "branch": "development",
+      "commit": "ea7324eea96a414e06ae1dd3673a086725502d6c",
+      "aliases": [
+        "skill-seekers",
+        "yusufkaraaslan/Skill_Seekers"
+      ],
+      "upstream": "yusufkaraaslan/Skill_Seekers",
+      "facet": "adapter",
+      "implemented": "Skill Seekers Python package, CLI and MCP source converters",
+      "role": "Source-to-skill and adapter generation",
+      "runtimeName": "skill-seekers",
+      "requirements": "Python 3.10+ and declared dependencies; preserve skill_seekers imports",
+      "source": {
+        "path": "pyproject.toml",
+        "sha": "7b6c93298990a4b2229b8dde00b2e066c7812b96"
+      },
+      "relatedRepositoryIds": [],
+      "pending": []
+    },
+    {
+      "id": "1349967082",
+      "name": "git4emet",
+      "repository": "git4emet/git4emet",
+      "branch": "main",
+      "commit": "9ce050001b7529136a416f1457853e6c5265df35",
+      "aliases": [
+        "BindPage"
+      ],
+      "upstream": null,
+      "facet": "adapter",
+      "implemented": "Canon Bind console with static catalog, explicit links and connector scan helpers",
+      "role": "Shared capability adapter and source mapping",
+      "runtimeName": "BindPage",
+      "requirements": "Browser; connector scans require the hosting platform connector bridge",
+      "source": {
+        "path": "src/components/canon/bind-page.tsx",
+        "sha": "5fa814db57b1c3d91dcf0a1e35baabc2a821daac"
+      },
+      "relatedRepositoryIds": [],
+      "pending": [
+        {
+          "number": 1,
+          "commit": "948e6498cb6daec2c59825ae9eb55153b93eaa0f",
+          "path": "registry/github_source_graph.json",
+          "description": "Source graph and reciprocal desktop contracts",
+          "url": "https://github.com/git4emet/git4emet/pull/1"
+        }
+      ]
+    },
+    {
+      "id": "1359135844",
+      "name": "Group-Chat-Room",
+      "repository": "git4emet/Group-Chat-Room",
+      "branch": "main",
+      "commit": "25c5ff1b7c33380e5daa3008e8faab400f6a6300",
+      "aliases": [
+        "ChatServer",
+        "HadarDadush/Group-Chat-Room"
+      ],
+      "upstream": "HadarDadush/Group-Chat-Room",
+      "facet": "communication",
+      "implemented": "Java TCP chat server and JavaFX client",
+      "role": "Shared communication capability",
+      "runtimeName": "ChatServer",
+      "requirements": "Java/JavaFX and reachable TCP server; browser bridge required",
+      "source": {
+        "path": "ChatServer.java",
+        "sha": "3685a201469f9be2a9f06a0b093aa53de05fc96f"
+      },
+      "relatedRepositoryIds": [
+        "1412748309"
+      ],
+      "pending": []
+    },
+    {
+      "id": "1368454307",
+      "name": "FindYourBase",
+      "repository": "git4emet/FindYourBase",
+      "branch": "main",
+      "commit": "9e72215e6fed04fb2ff3a487d4b50b70bf9e80fb",
+      "aliases": [
+        "one42.trail.ledger.v1"
+      ],
+      "upstream": null,
+      "facet": "adapter",
+      "implemented": "Lattice/navigation surface with local receipt history and SHA-256 helper",
+      "role": "Point navigation and transition history",
+      "runtimeName": "one42.trail.ledger.v1",
+      "requirements": "Browser; receipts use localStorage, with a 200-entry cap",
+      "source": {
+        "path": "src/lib/ledger.ts",
+        "sha": "2e4cdc305aa24b31b0ba18a1dbfe1dca3b9408b0"
+      },
+      "relatedRepositoryIds": [],
+      "pending": []
+    },
+    {
+      "id": "1369074763",
+      "name": "civic-moonflowers",
+      "repository": "git4emet/civic-moonflowers",
+      "branch": "main",
+      "commit": "bb6e30501296ca146c8b58f89e7ccb01657ff437",
+      "aliases": [
+        "localBuddyReply"
+      ],
+      "upstream": null,
+      "facet": "projection",
+      "implemented": "Buddy console with local pattern replies and room/schema state",
+      "role": "Dollhouse and studio projection",
+      "runtimeName": "localBuddyReply",
+      "requirements": "Browser; remote reply path requires its separately configured backend",
+      "source": {
+        "path": "src/lib/buddy-reply.ts",
+        "sha": "a867cb31a933ad6e87df711d1514c6eb403d924b"
+      },
+      "relatedRepositoryIds": [],
+      "pending": []
+    },
+    {
+      "id": "1370822956",
+      "name": "silver-bold-wood-scarlet",
+      "repository": "git4emet/silver-bold-wood-scarlet",
+      "branch": "main",
+      "commit": "cd43436b9e075310c2a898546b5a43f016bcee12",
+      "aliases": [
+        "localBuddyReply"
+      ],
+      "upstream": null,
+      "facet": "projection",
+      "implemented": "Buddy console sharing inspected reply code with civic-moonflowers",
+      "role": "Alternate Dollhouse projection",
+      "runtimeName": "localBuddyReply",
+      "requirements": "Browser; shared file hashes do not erase separate repository identities",
+      "source": {
+        "path": "src/lib/buddy-reply.ts",
+        "sha": "a867cb31a933ad6e87df711d1514c6eb403d924b"
+      },
+      "relatedRepositoryIds": [],
+      "pending": []
+    },
+    {
+      "id": "1401366952",
+      "name": "Grok001",
+      "repository": "git4emet/Grok001",
+      "branch": "main",
+      "commit": "957b63c884da0109c46dbe8253c72ebc0fd1beef",
+      "aliases": [
+        "package.json"
+      ],
+      "upstream": null,
+      "facet": "projection",
+      "implemented": "Grok workspace helpers; no domain application route in inspected default tree",
+      "role": "Projection workspace starting point",
+      "runtimeName": "package.json",
+      "requirements": "Implement an application route before launching a domain surface",
+      "source": {
+        "path": "package.json",
+        "sha": "f8c29d83fd3554ed2549554c405a66f632e2e0a3"
+      },
+      "relatedRepositoryIds": [],
+      "pending": []
+    },
+    {
+      "id": "1401377439",
+      "name": "Grok002",
+      "repository": "git4emet/Grok002",
+      "branch": "main",
+      "commit": "a623b576966161b3e5a66ed007e95af278acdbb3",
+      "aliases": [
+        "BindPage"
+      ],
+      "upstream": null,
+      "facet": "adapter",
+      "implemented": "Canon Bind console with static catalog, explicit links and connector scan helpers",
+      "role": "Shared capability adapter and source mapping",
+      "runtimeName": "BindPage",
+      "requirements": "Browser; connector scans require the hosting platform connector bridge",
+      "source": {
+        "path": "src/components/canon/bind-page.tsx",
+        "sha": "c94f836ce5a4fe4949ee182a1ed914a0dbcbae74"
+      },
+      "relatedRepositoryIds": [],
+      "pending": []
+    },
+    {
+      "id": "1401378307",
+      "name": "Grok003",
+      "repository": "git4emet/Grok003",
+      "branch": "main",
+      "commit": "6809fa72a67b161751107c7225f4fece463be380",
+      "aliases": [
+        "runScan"
+      ],
+      "upstream": null,
+      "facet": "compute",
+      "implemented": "Synthetic BPSK scan pipeline, SCF, GLRT and TOFAR events",
+      "role": "Signal transform laboratory",
+      "runtimeName": "runScan",
+      "requirements": "Browser/TypeScript; synthetic signals are not live hardware capture",
+      "source": {
+        "path": "src/lib/cyclo/pipeline.ts",
+        "sha": "56b431392f9112b314bb283d8534e850063414d2"
+      },
+      "relatedRepositoryIds": [],
+      "pending": []
+    },
+    {
+      "id": "1401380388",
+      "name": "Grpk004",
+      "repository": "git4emet/Grpk004",
+      "branch": "main",
+      "commit": "e25e5b4cf865d9f72c80462ae5846a3993eeb29c",
+      "aliases": [
+        "package.json"
+      ],
+      "upstream": null,
+      "facet": "projection",
+      "implemented": "Grok workspace helpers; no domain application route in inspected default tree",
+      "role": "Projection workspace starting point",
+      "runtimeName": "package.json",
+      "requirements": "Implement an application route before launching a domain surface",
+      "source": {
+        "path": "package.json",
+        "sha": "f8c29d83fd3554ed2549554c405a66f632e2e0a3"
+      },
+      "relatedRepositoryIds": [],
+      "pending": []
+    },
+    {
+      "id": "1403922491",
+      "name": "heyMico.doinbetter",
+      "repository": "git4emet/heyMico.doinbetter",
+      "branch": "main",
+      "commit": "66b9fd297b7cf60ac498ba7bb7252c29753832ff",
+      "aliases": [
+        "DOORS"
+      ],
+      "upstream": null,
+      "facet": "projection",
+      "implemented": "Shelter, Lab, creator board, lattice and receipt navigation",
+      "role": "Public entry and creator projection",
+      "runtimeName": "DOORS",
+      "requirements": "Browser; static state strings do not establish DNS or live services",
+      "source": {
+        "path": "src/lib/canon.ts",
+        "sha": "2648f63ea0a7afb02a9a5c0a786c828591404c9c"
+      },
+      "relatedRepositoryIds": [],
+      "pending": []
+    },
+    {
+      "id": "1412562357",
+      "name": "slate-field-light-zinc",
+      "repository": "git4emet/slate-field-light-zinc",
+      "branch": "main",
+      "commit": "fe3ff15725dc399f0fbc2a7721c427f041d37bb2",
+      "aliases": [
+        "DOORS"
+      ],
+      "upstream": null,
+      "facet": "projection",
+      "implemented": "Shelter/Lab projection sharing inspected canon file with heyMico",
+      "role": "Alternate entry projection",
+      "runtimeName": "DOORS",
+      "requirements": "Browser; preserve independent repository history",
+      "source": {
+        "path": "src/lib/canon.ts",
+        "sha": "2648f63ea0a7afb02a9a5c0a786c828591404c9c"
+      },
+      "relatedRepositoryIds": [],
+      "pending": []
+    },
+    {
+      "id": "1412734248",
+      "name": "XDcomms",
+      "repository": "git4emet/XDcomms",
+      "branch": "main",
+      "commit": "46e885c788a8c0ae8071eea69a7063e9048b418f",
+      "aliases": [
+        "BindPage"
+      ],
+      "upstream": null,
+      "facet": "adapter",
+      "implemented": "Canon Bind console with static catalog, explicit links and connector scan helpers",
+      "role": "Shared capability adapter and source mapping",
+      "runtimeName": "BindPage",
+      "requirements": "Browser; connector scans require the hosting platform connector bridge",
+      "source": {
+        "path": "src/components/canon/bind-page.tsx",
+        "sha": "c94f836ce5a4fe4949ee182a1ed914a0dbcbae74"
+      },
+      "relatedRepositoryIds": [
+        "1412748309"
+      ],
+      "pending": []
+    },
+    {
+      "id": "1412748309",
+      "name": "systemsNxXD",
+      "repository": "git4emet/systemsNxXD",
+      "branch": "main",
+      "commit": "211815ab78e04720b91e27d9d44619a59c36d606",
+      "aliases": [
+        "BindPage"
+      ],
+      "upstream": null,
+      "facet": "adapter",
+      "implemented": "Canon Bind console with static catalog, explicit links and connector scan helpers",
+      "role": "Shared capability adapter and source mapping",
+      "runtimeName": "BindPage",
+      "requirements": "Browser; connector scans require the hosting platform connector bridge",
+      "source": {
+        "path": "src/components/canon/bind-page.tsx",
+        "sha": "c94f836ce5a4fe4949ee182a1ed914a0dbcbae74"
+      },
+      "relatedRepositoryIds": [
+        "1023733928",
+        "1023734773",
+        "1023735450",
+        "1213947077",
+        "1279571624",
+        "1291644311",
+        "1291646888",
+        "1291648824",
+        "1291651074",
+        "1291652776",
+        "1291654265",
+        "1291655705",
+        "1291712383",
+        "1291716239",
+        "1291717477",
+        "1291718899",
+        "1291720956",
+        "1291724955",
+        "1291726165",
+        "1291728449",
+        "1292231221",
+        "1349967082",
+        "1359135844",
+        "1368454307",
+        "1369074763",
+        "1370822956",
+        "1401366952",
+        "1401377439",
+        "1401378307",
+        "1401380388",
+        "1403922491",
+        "1412562357",
+        "1412734248"
+      ],
+      "pending": []
+    }
+  ]
+}

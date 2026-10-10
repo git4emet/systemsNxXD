@@ -10,7 +10,7 @@ import { PreviewHostBridge } from "@/components/preview-host-bridge";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import appCss from "../styles.css?url";
 
-const APP_NAME = "Canon Bind";
+const APP_NAME = "Möbii³us · Available avenues";
 
 export const Route = createRootRoute({
   head: () => ({
@@ -21,7 +21,7 @@ export const Route = createRootRoute({
       {
         name: "description",
         content:
-          "Bind GitHub, Drive, Canva, and the rest of your stack to the Möbii³us canonical slots.",
+          "Connect repository names to their implemented capabilities and select a transform.",
       },
       { name: "theme-color", content: "#0a0a0b" },
     ],
@@ -71,3 +71,4 @@ function RootDocument() {
     </html>
   );
 }
+
