@@ -1,0 +1,52 @@
+{
+  "schema": "mobiius.golden-event.v1",
+  "event_id": "python-fixture-1",
+  "ts": "2026-10-11T00:00:00Z",
+  "kind": "coordinate.traversal",
+  "actor": "local-selection",
+  "thread_id": "coordinate:local",
+  "turn_index": 0,
+  "content": "Selected avenue recorded",
+  "extract": {
+    "point": "Parse",
+    "avenue": "parse"
+  },
+  "links": [
+    "source:original",
+    "source:unicode-ש"
+  ],
+  "tofar": {
+    "receipt_sha256": "06872c4ccde7d0e8a18a1c189a466ddc9968e68dccc53387a91688b9a63bbae0",
+    "CRED": {
+      "TOFAR": {
+        "previous_sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "TOPHDARC": {
+        "source_receipts": [
+          "source:original",
+          "source:unicode-ש"
+        ]
+      },
+      "TOFARKLE": {
+        "traversal": {
+          "event_id": "python-fixture-1",
+          "from": "Sense",
+          "via": "parse",
+          "to": "Parse",
+          "script": {
+            "record": "Parse",
+            "scale": 1.0
+          },
+          "timestamp": "2026-10-11T00:00:00Z"
+        }
+      }
+    }
+  },
+  "dirty_sectors": [
+    "system",
+    "hud"
+  ],
+  "metadata": {
+    "canonical_receipt_body": "{\"CRED\":{\"TOFAR\":{\"previous_sha256\":\"0000000000000000000000000000000000000000000000000000000000000000\"},\"TOFARKLE\":{\"traversal\":{\"event_id\":\"python-fixture-1\",\"from\":\"Sense\",\"script\":{\"record\":\"Parse\",\"scale\":1.0},\"timestamp\":\"2026-10-11T00:00:00Z\",\"to\":\"Parse\",\"via\":\"parse\"}},\"TOPHDARC\":{\"source_receipts\":[\"source:original\",\"source:unicode-ש\"]}}}"
+  }
+}

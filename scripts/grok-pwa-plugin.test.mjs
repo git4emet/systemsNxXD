@@ -6,9 +6,9 @@ import { fileURLToPath } from "node:url";
 import test from "node:test";
 import {
   appNameFromHost,
-  createHeadInjector,
+  createHeadInjector as createHeadInjectorWithWorkspace,
   grokXCreatorHeadTags,
-  injectGrokPwaHead,
+  injectGrokPwaHead as injectGrokPwaHeadWithWorkspace,
   isDocumentPath,
   isInstallQuery,
   publicAppHost,
@@ -20,6 +20,15 @@ import {
 import { renderInstallPage } from "./grok-pwa-plugin.mjs";
 
 const TEMPLATE_ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
+
+// These generic fixtures must not inherit the real app's OG title/card.
+const FIXTURE_ROOT = mkdtempSync(join(tmpdir(), "grok-pwa-fixtures-"));
+function injectGrokPwaHead(html, context = {}) {
+  return injectGrokPwaHeadWithWorkspace(html, { cwd: FIXTURE_ROOT, ...context });
+}
+function createHeadInjector(context = {}) {
+  return createHeadInjectorWithWorkspace({ cwd: FIXTURE_ROOT, ...context });
+}
 
 test("injects before </head>", () => {
   const out = injectGrokPwaHead("<html><head><title>x</title></head><body></body></html>");
