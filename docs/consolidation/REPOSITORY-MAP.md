@@ -1,5 +1,7 @@
 # Repository ownership map
 
+See [multi-domain infrastructure](MULTI-DOMAIN-INFRASTRUCTURE.md) for the eight-domain roster, Gemini's contributed shared-services target and the distinction between proposed services and current implementation.
+
 | Surface | Review disposition | Evidence and boundary |
 |---|---|---|
 | `systemsNxXD` | Own shared coordinate runtime, event contract and adapter console | This branch moves six implementation files into `apps/` and `packages/` with compatibility shims |
