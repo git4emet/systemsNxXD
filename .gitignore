@@ -3,3 +3,10 @@ node_modules/
 .github_repo
 .env
 .env.*
+
+# Local coordinate demonstration state
+__pycache__/
+*.pyc
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal

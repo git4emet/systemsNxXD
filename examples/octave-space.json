@@ -1,0 +1,69 @@
+{
+  "initial_point": "Sense",
+  "space": {
+    "Sense": [
+      {
+        "avenue": "Parse",
+        "from": "Sense",
+        "to": "Parse",
+        "script": "record sense step"
+      }
+    ],
+    "Parse": [
+      {
+        "avenue": "Route",
+        "from": "Parse",
+        "to": "Route",
+        "script": "record parse step"
+      }
+    ],
+    "Route": [
+      {
+        "avenue": "Execute",
+        "from": "Route",
+        "to": "Execute",
+        "script": "record route step"
+      }
+    ],
+    "Execute": [
+      {
+        "avenue": "Witness",
+        "from": "Execute",
+        "to": "Witness",
+        "script": "record execute step"
+      }
+    ],
+    "Witness": [
+      {
+        "avenue": "Reflect",
+        "from": "Witness",
+        "to": "Reflect",
+        "script": "record witness step"
+      }
+    ],
+    "Reflect": [
+      {
+        "avenue": "Receive",
+        "from": "Reflect",
+        "to": "Receive",
+        "script": "record reflect step"
+      }
+    ],
+    "Receive": [
+      {
+        "avenue": "Return",
+        "from": "Receive",
+        "to": "Return",
+        "script": "record receive step"
+      }
+    ],
+    "Return": [
+      {
+        "avenue": "Sense",
+        "from": "Return",
+        "to": "Sense",
+        "script": "record return step"
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+name: Coordinate core and contracts
+on:
+  push:
+    paths: ['packages/coordinate_core/**', 'packages/contracts/**', 'services/golden_event_bridge/**', 'adapters/hgraph/**', 'tests/**', '.github/workflows/coordinate-core.yml']
+  pull_request:
+    paths: ['packages/coordinate_core/**', 'packages/contracts/**', 'services/golden_event_bridge/**', 'adapters/hgraph/**', 'tests/**', '.github/workflows/coordinate-core.yml']
+jobs:
+  coordinate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m unittest discover -s tests -p 'test_*.py' -v
+      - run: python -m pip install -r adapters/hgraph/requirements.txt
+      - run: python -m unittest adapters.hgraph.test_receipt_lens -v

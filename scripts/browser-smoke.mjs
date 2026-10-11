@@ -92,6 +92,7 @@ let browser = null;
 try {
   browser = await chromium.launch({
     headless: true,
+    executablePath: process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE || undefined,
     args: ["--no-sandbox", "--disable-dev-shm-usage"],
   });
 
