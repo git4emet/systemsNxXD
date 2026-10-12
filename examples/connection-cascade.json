@@ -120,6 +120,24 @@
       "auth_mode": "provider_owned",
       "evidence_status": "proposal_only",
       "side_effect": false
+    },
+    {
+      "id": "heptatic.perimeter.generate",
+      "action": "generate",
+      "provider": "local_heptatic",
+      "auth_mode": "none",
+      "evidence_status": "local_source_inspected",
+      "side_effect": false,
+      "note": "Build seven-question perimeter candidate with historical triad preserved"
+    },
+    {
+      "id": "feynman.anti_event.generate",
+      "action": "generate",
+      "provider": "local_heptatic",
+      "auth_mode": "none",
+      "evidence_status": "local_source_inspected",
+      "side_effect": false,
+      "note": "Generate counterfactual or compensating proposal only. Never undo/replay effects automatically"
     }
   ]
 }
