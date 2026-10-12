@@ -1,0 +1,143 @@
+{
+  "schema": "mobiius.connection-cascade.v1",
+  "version": "0.1.0",
+  "source_owner": "git4emet/systemsNxXD",
+  "contract_consumer": "git4emet/XDcomms",
+  "authorization_cascade_enabled": false,
+  "rule": "Existing caller-authorized connector actions remain caller- and target-scoped at the host gateway. Never export, clone, or infer OAuth grants.",
+  "sources": [
+    {
+      "name": "GitHub_Reshuffle_Handoff.zip",
+      "sha256": "216bd46719e555379e06cc07566eba023356a84191523c96fbf94b99e359d65d",
+      "type": "supplied_archive"
+    },
+    {
+      "name": "Dynamic-FCP-Adapter-2026-10-10.zip",
+      "sha256": "94cbeafae9bb58c8a4540e3adb4162d7d99fc3f243cfecb1aeafbc5a629c06aa",
+      "type": "supplied_archive"
+    },
+    {
+      "name": "AET_PLAYBOOK_CROSSWALK.md",
+      "sha256": "51ffda5c7e90947368fdf319b68b9d82ef9ef46f74715f24c4bc3f28fafd7b92",
+      "type": "proposal"
+    },
+    {
+      "name": "public_evidence.json",
+      "sha256": "b6fadb54b747538e754b8d7f843c79f7d95661b4a50e8c61bd6076f543a4147f",
+      "type": "public_source_index"
+    },
+    {
+      "name": "Mobiius_Supabase_XML_Account_Staging_2026-10-10(1).zip",
+      "sha256": "02b9e05a7553e73f5254f67f088d327b321a7d94f5cfc64f25b794699c7551d6",
+      "type": "staging_not_deployment"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "fcp.recipe.generate",
+      "action": "generate",
+      "provider": "local_fcp",
+      "auth_mode": "none",
+      "evidence_status": "local_source_inspected",
+      "side_effect": false
+    },
+    {
+      "id": "gmail.account.connect",
+      "action": "connect",
+      "provider": "gmail",
+      "auth_mode": "caller_connection",
+      "evidence_status": "live_tool_observed",
+      "side_effect": false,
+      "note": "Check existing binding only; adding an account requires user OAuth consent"
+    },
+    {
+      "id": "gmail.message.search",
+      "action": "invoke",
+      "provider": "gmail",
+      "provider_action": "mcp__Gmail__search_emails",
+      "auth_mode": "caller_connection",
+      "evidence_status": "live_tool_observed",
+      "side_effect": false
+    },
+    {
+      "id": "github.repo.read",
+      "action": "invoke",
+      "provider": "github",
+      "provider_action": "mcp__GitHub__get_repo",
+      "auth_mode": "caller_connection",
+      "evidence_status": "live_tool_observed",
+      "side_effect": false
+    },
+    {
+      "id": "github.repo.write",
+      "action": "invoke",
+      "provider": "github",
+      "provider_action": "mcp__GitHub__create_file",
+      "auth_mode": "caller_connection",
+      "evidence_status": "live_tool_observed",
+      "side_effect": true
+    },
+    {
+      "id": "asana.task.search",
+      "action": "invoke",
+      "provider": "asana",
+      "provider_action": "mcp__Asana__search_objects",
+      "auth_mode": "caller_connection",
+      "evidence_status": "live_tool_observed",
+      "side_effect": false
+    },
+    {
+      "id": "gamma.deck.search",
+      "action": "invoke",
+      "provider": "gamma",
+      "provider_action": "mcp__Gamma__search_gammas",
+      "auth_mode": "caller_connection",
+      "evidence_status": "live_tool_observed",
+      "side_effect": false
+    },
+    {
+      "id": "golden.event.select",
+      "action": "invoke",
+      "provider": "golden_event_bridge",
+      "provider_action": "local:POST /select",
+      "auth_mode": "provider_owned",
+      "evidence_status": "local_source_inspected",
+      "side_effect": true
+    },
+    {
+      "id": "supabase.archive.read",
+      "action": "invoke",
+      "provider": "supabase",
+      "provider_action": "mcp__Supabase__execute_sql",
+      "auth_mode": "caller_connection",
+      "evidence_status": "proposal_only",
+      "side_effect": false
+    },
+    {
+      "id": "aet.report.release",
+      "action": "defer",
+      "provider": "team_aet",
+      "auth_mode": "provider_owned",
+      "evidence_status": "proposal_only",
+      "side_effect": false
+    },
+    {
+      "id": "heptatic.perimeter.generate",
+      "action": "generate",
+      "provider": "local_heptatic",
+      "auth_mode": "none",
+      "evidence_status": "local_source_inspected",
+      "side_effect": false,
+      "note": "Build seven-question perimeter candidate with historical triad preserved"
+    },
+    {
+      "id": "feynman.anti_event.generate",
+      "action": "generate",
+      "provider": "local_heptatic",
+      "auth_mode": "none",
+      "evidence_status": "local_source_inspected",
+      "side_effect": false,
+      "note": "Generate counterfactual or compensating proposal only. Never undo/replay effects automatically"
+    }
+  ]
+}

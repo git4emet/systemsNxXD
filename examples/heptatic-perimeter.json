@@ -1,0 +1,45 @@
+{
+  "schema": "mobiius.heptatic.v1",
+  "date_context": "2026-03-24T08:54:23Z",
+  "source_status": "archived_reported_timestamp_not_verified_runtime",
+  "source_carriers": [
+    {
+      "type": "archived_report_copied_in_gmail",
+      "timestamp_claim": "2026-03-24T08:54:23Z",
+      "later_copy_date": "2026-06-01",
+      "description": "FloodWatch six-phase execution summary; contains seven intent questions and Feynman anti-event as proposed walkthrough"
+    },
+    {
+      "type": "forwarded_derivative",
+      "date": "2026-07-01",
+      "description": "Later copy linking the Feynman anti-event and HYPERMETASOPHIRE dashboard"
+    }
+  ],
+  "intent_perimeter": [
+    "how",
+    "why",
+    "what",
+    "where",
+    "when",
+    "so",
+    "for"
+  ],
+  "capture_stages": [
+    "ethical_core",
+    "whiteboard",
+    "tofar_engine",
+    "buddy_mesh",
+    "twine",
+    "automation",
+    "dashboard"
+  ],
+  "event_modes": [
+    "capture",
+    "replay",
+    "anti_event"
+  ],
+  "legacy_triad_handling": "preserve_source_descriptor_as_nested_input_not_auto_rewrite",
+  "ethical_seven_gates": "separate_advisory_policy_review_not_same_as_seven_intent_questions",
+  "anti_event_interpretation": "non_executing_counterfactual_or_compensating_proposal_not_time_reversal_physics",
+  "authorization_rule": "a source record, query match, receipt digest or displayed gate cannot grant provider authority; the host validates a live caller-bound capability at the effect boundary"
+}
