@@ -1,0 +1,243 @@
+schema_version: "0.1"
+registry_id: "mobiius.conversation-recovered-skills"
+owner_repository: "git4emet/systemsNxXD"
+recovery_rule: "Conversation descriptions are valid recovery sources; source code is additional evidence, not a prerequisite."
+evidence_states:
+  - conversation_recovered
+  - specification_recovered
+  - source_recovered
+  - tests_present
+  - implementation_tested
+  - deployment_verified
+canonical_coordinate_contract:
+  current_point: "P_t"
+  correlate_space: "C(P_t) = {P_1, ..., P_n}"
+  avenue: "A_i = (P_t -> P_i)"
+  flow:
+    - current_point
+    - resolve_correlate_space
+    - enumerate_available_points
+    - present_available_avenues
+    - caller_selection
+    - instantiate_selected_transition
+    - record_new_point_and_script
+    - continue
+  absent_semantics:
+    - priority
+    - ranking
+    - recommendation
+    - preference
+    - approval
+    - denial
+    - risk_score
+    - trust_score
+    - decisional_intensity
+    - model_voting
+    - agent_consensus
+modules:
+  - id: "module.bootstrap.0init"
+    name: "0.init Bootstrap"
+    context: "Foundation runtime"
+    requisite_skills: [environment_inspection, configuration_loading, module_discovery, dependency_resolution, runtime_initialization, state_restoration, module_registration, lifecycle_management, reproducible_bootstrap, service_packaging]
+    evidence: [conversation_recovered, specification_recovered]
+    repository: "git4emet/systemsNxXD"
+  - id: "module.coordinate.mobiius"
+    name: "Möbii³us Coordinate Core"
+    requisite_skills: [point_addressing, correlate_space_representation, relation_registration, avenue_enumeration, explicit_selection_intake, transition_instantiation, transform_descriptor_preservation, script_recording, current_point_advancement, coordinate_serialization, canonical_address_preserving_projection]
+    evidence: [conversation_recovered, specification_recovered, source_recovered, tests_present]
+    repository: "git4emet/systemsNxXD"
+    source_paths: [packages/coordinate_core/dr_shift.py, tests/test_coordinate_core.py]
+  - id: "module.transform.geometry"
+    name: "Transform and Geometry Engine"
+    requisite_skills: [transform_representation, coordinate_mapping, transform_composition, reversible_mapping_when_defined, svg_geometry, vector_geometry, toroidal_geometry, fractal_iteration, projection, inverse_projection, numerical_geometry]
+    evidence: [conversation_recovered, specification_recovered]
+    repository: "git4emet/systemsNxXD"
+  - id: "module.events.receipts"
+    name: "Event and Receipt Runtime"
+    requisite_skills: [event_identity, timestamp_preservation, canonical_json_bytes, utf8_serialization, sha256_receipts, previous_receipt_linkage, append_sinks, receipt_verification, replay, idempotent_event_handling, schema_validation, cross_language_fixtures]
+    evidence: [conversation_recovered, specification_recovered, source_recovered, tests_present]
+    repository: "git4emet/systemsNxXD"
+    source_paths: [packages/contracts/golden-event.ts, packages/coordinate_core/dr_shift.py, packages/contracts/fixtures/python-golden-event.json]
+  - id: "module.persistence.bridge"
+    name: "Persistence and Event Bridge"
+    requisite_skills: [sqlite, transaction_boundaries, wal_configuration, synchronous_durability, commit_before_state_advance, restart_replay, stale_point_detection, duplicate_event_handling, local_http, sse_framing, heartbeat, reconnect, cursor_resume]
+    evidence: [conversation_recovered, specification_recovered, source_recovered, tests_present]
+    repository: "git4emet/systemsNxXD"
+    source_paths: [services/golden_event_bridge/bridge.py, services/golden_event_bridge/http_server.py, tests/test_event_bridge.py]
+  - id: "module.artifact.atlas"
+    name: "Artifact Atlas"
+    requisite_skills: [conversation_source_capture, source_identifiers, artifact_manifests, file_discovery, mime_detection, metadata_extraction, archive_inventory, nested_archive_traversal, content_hashing, document_parsing, ocr, code_extraction, svg_parsing, image_metadata, provenance_linking, source_to_skill_mapping]
+    evidence: [conversation_recovered, specification_recovered]
+    repository: "git4emet/systemsNxXD"
+  - id: "module.provenance.graph"
+    name: "Provenance and Lineage Graph"
+    requisite_skills: [source_attribution, artifact_lineage, version_relationships, entity_resolution, prototype_module_mapping, module_skill_mapping, dependency_edges, source_references, cross_thread_references, verbatim_and_interpretation_separation]
+    evidence: [conversation_recovered, specification_recovered]
+    repository: "git4emet/systemsNxXD"
+  - id: "module.rag.correlate"
+    name: "RAG and Correlate Retrieval"
+    requisite_skills: [chunking, semantic_indexing, embedding_retrieval, keyword_retrieval, context_expansion, source_linked_retrieval, query_source_traceability, coordinate_discovery, retrieval_updates, sse_coordinate_publication]
+    evidence: [conversation_recovered, specification_recovered]
+    repository: "git4emet/systemsNxXD"
+  - id: "module.buddy.runtime"
+    name: "Buddy Runtime"
+    requisite_skills: [conversational_state, context_management, adaptive_repl, tool_invocation, session_persistence, source_aware_response, script_handoff, runtime_adapters, multimodal_input, interface_state_synchronization]
+    evidence: [conversation_recovered, specification_recovered]
+    repository: "git4emet/heyMico.doinbetter"
+  - id: "module.spin.verb-engine"
+    name: "Spin Kernel / Verb Engine"
+    requisite_skills: [language_parsing, verb_extraction, action_extraction, semantic_tuple_construction, contextual_windowing, tuple_graph_construction, discrete_indexing, prime_arithmetic, modular_arithmetic, vocabulary_mapping]
+    evidence: [conversation_recovered, specification_recovered]
+    repository: "git4emet/systemsNxXD"
+  - id: "module.conductor.agents"
+    name: "Fractal Conductor and Agent Adapters"
+    requisite_skills: [recursive_execution, local_transform_execution, capability_declaration, interface_binding, tool_discovery, event_subscription, execution_tracing, multi_agent_transport, adapter_lifecycle]
+    evidence: [conversation_recovered, specification_recovered]
+    repository: "git4emet/systemsNxXD"
+  - id: "module.memory.tribuffer"
+    name: "Memory and TriBuffer"
+    requisite_skills: [context_buffering, temporal_indexing, retrieval, session_continuity, append_only_memory, source_references, state_reconstruction, memory_compaction, replay]
+    evidence: [conversation_recovered, specification_recovered]
+    repository: "git4emet/systemsNxXD"
+  - id: "module.keyboard.aars"
+    name: "Active Keyboard / AARS"
+    requisite_skills: [keyboard_event_capture, input_normalization, contextual_completion, action_extraction, desktop_integration, browser_integration, accessibility, local_state_display, event_emission]
+    evidence: [conversation_recovered, specification_recovered]
+    repository: "git4emet/systemsNxXD"
+  - id: "module.visualization.fizzyscape"
+    name: "Fizzyscape / FizzyScreen / HUD"
+    requisite_skills: [react, typescript, component_architecture, svg_dom_rendering, graph_views, timeline_views, dirty_sector_updates, event_driven_rendering, responsive_layouts, state_inspection, visual_provenance]
+    evidence: [conversation_recovered, specification_recovered]
+    repository: "git4emet/systemsNxXD"
+  - id: "module.visualization.phase7"
+    name: "Phase 7 Visualizer"
+    requisite_skills: [threejs, webgl, glsl, wgsl, shader_compilation, uniform_layouts, buffer_layouts, semantic_uniform_schemas, fractional_payload_packing, precision_handling, shader_reflection, gpu_profiling, animation, particle_rendering, simulation_integration]
+    evidence: [conversation_recovered, specification_recovered]
+    repository: "git4emet/webgpu-sieve-sorting-strobe-cam"
+  - id: "module.visualization.lattice"
+    name: "Möbii³us Lattice / vΩ"
+    requisite_skills: [svg_authoring, svg_parsing, vector_geometry, lattice_rendering, toroidal_projection, fractal_visualization, diagram_generation, pdf_generation, metadata_preservation, coordinate_interaction]
+    evidence: [conversation_recovered, specification_recovered, source_recovered]
+    repository: "git4emet/systemsNxXD"
+  - id: "module.image.inverse-geometry"
+    name: "Inverse Geometry / Image Transfer"
+    requisite_skills: [image_registration, coordinate_transforms, mirroring, stencil_generation, transfer_sheet_generation, pixel_mapping, compositing, source_to_skin_rendering, visual_comparison]
+    evidence: [conversation_recovered, specification_recovered]
+    repository: "git4emet/systemsNxXD"
+  - id: "module.physics.simulation"
+    name: "Physics and Simulation"
+    requisite_skills: [rapier, ammojs, rigid_body_simulation, collision_detection, particle_systems, simulation_time_steps, gpu_cpu_synchronization, parameter_control]
+    evidence: [conversation_recovered, specification_recovered]
+    repository: "git4emet/webgpu-sieve-sorting-strobe-cam"
+  - id: "module.streaming.aet"
+    name: "AET FieldStream"
+    requisite_skills: [event_streaming, asynchronous_processing, stream_normalization, buffering, source_timestamps, telemetry_ingestion, time_series_representation, persistence]
+    evidence: [conversation_recovered, specification_recovered]
+    repository: "git4emet/DoinBetter-Floodwater"
+  - id: "module.streaming.riftrix"
+    name: "RiFTRiXStream / EagleEcho"
+    requisite_skills: [websockets, webrtc, sse, incremental_decoding, chunking, backpressure, reconnect, stream_checkpoints, sequence_continuity, payload_framing]
+    evidence: [conversation_recovered, specification_recovered]
+    repository: "git4emet/XDcomms"
+  - id: "module.environmental.consciousness"
+    name: "Environmental Consciousness"
+    requisite_skills: [sensor_integration, environmental_normalization, time_series_ingestion, spatial_context, event_correlation, field_telemetry, stream_persistence]
+    evidence: [conversation_recovered, specification_recovered]
+    repository: "git4emet/DoinBetter-Floodwater"
+  - id: "module.math.fractional-compute"
+    name: "Fractional Computation"
+    requisite_skills: [caputo_derivatives, fractional_integration, numerical_approximation, convolution_kernels, memory_kernels, temporal_smoothing, signal_processing, gpu_acceleration, streaming_windows]
+    evidence: [conversation_recovered, specification_recovered]
+    repository: "git4emet/systemsNxXD"
+  - id: "module.streaming.adaptive"
+    name: "Adaptive Transmission"
+    requisite_skills: [bitrate_adaptation, congestion_control, latency_measurement, buffer_management, packet_loss_handling, throughput_monitoring, graceful_degradation]
+    evidence: [conversation_recovered, specification_recovered]
+    repository: "git4emet/XDcomms"
+  - id: "module.integration.mercury"
+    name: "Mercury Mirror Exchange"
+    requisite_skills: [capability_declaration, contact_point_discovery, io_contract_mapping, protocol_binding, rest, graphql, pubsub, websockets, grpc, bidirectional_exchange, vocabulary_transcoding, source_attribution]
+    evidence: [conversation_recovered, specification_recovered]
+    repository: "git4emet/systemsNxXD"
+  - id: "module.semantic.transcoder"
+    name: "Semantic Transcoder / Vocab Join"
+    requisite_skills: [ontology_mapping, vocabulary_normalization, identifier_mapping, schema_translation, domain_adapters, round_trip_fixtures, original_term_preservation]
+    evidence: [conversation_recovered, specification_recovered]
+    repository: "git4emet/systemsNxXD"
+  - id: "module.resources.cred-tofar"
+    name: "CRED / CREDmcAPI / TOFAR"
+    requisite_skills: [resource_accounting, usage_metering, cost_modeling, query_cost_estimation, budget_calculation, ledger_serialization, hash_chain_receipts, resource_provenance, transaction_schema, smart_contract_engineering_if_present]
+    evidence: [conversation_recovered, specification_recovered, source_recovered]
+    repository: "git4emet/systemsNxXD"
+  - id: "module.runtime.tinybox"
+    name: "TinyBox and Conductor Core"
+    requisite_skills: [edge_computing, local_runtime_packaging, constrained_execution, service_orchestration, task_dispatch, process_lifecycle, local_persistence, container_deployment, cloud_edge_bridging]
+    evidence: [conversation_recovered, specification_recovered]
+    repository: "git4emet/systemsNxXD"
+  - id: "module.operations.gopher-state"
+    name: "Gopher State / 811"
+    requisite_skills: [geospatial_records, ticket_intake, utility_coordination, contractor_records, crew_records, equipment_tracking, schedule_coordination, traffic_dependencies, material_dependencies, inspection_records, operational_event_exchange]
+    evidence: [conversation_recovered, specification_recovered]
+    repository: "git4emet/DoinBetter-Floodwater"
+  - id: "module.infrastructure.domains"
+    name: "Eight-domain Infrastructure"
+    requisite_skills: [dns, tls, hosting, domain_service_routing, authentication_integration, cicd, deployment_manifests, health_endpoints, observability, domain_configuration]
+    evidence: [conversation_recovered, specification_recovered]
+    repository: "git4emet/systemsNxXD"
+  - id: "module.math.42-locked"
+    name: "42-LOCKED"
+    requisite_skills: [prime_factorization, sphenic_numbers, combinatorics, catalan_structures, complex_dynamics, julia_iteration, fibonacci_recurrence, golden_ratio_arithmetic, modular_arithmetic, discrete_indexing]
+    evidence: [conversation_recovered, specification_recovered]
+    repository: "git4emet/systemsNxXD"
+  - id: "module.math.hypergraph"
+    name: "Hypergraph Research"
+    requisite_skills: [graph_theory, hypergraphs, incidence_structures, higher_order_relations, fano_plane, laplacian_operators, graph_serialization, topology_visualization]
+    evidence: [conversation_recovered, specification_recovered]
+    repository: "git4emet/systemsNxXD"
+  - id: "module.shader.hfps"
+    name: "Hybrid Fractional Payload Schema"
+    requisite_skills: [uniform_semantic_declaration, vec4_component_packing, precision_representation, std140_layout_engineering, shader_reflection, implementation_limit_query, backend_layout_adapters, packing_receipts]
+    evidence: [conversation_recovered, specification_recovered]
+    repository: "git4emet/webgpu-sieve-sorting-strobe-cam"
+    note: "Proposed synthesis from research discussion; not yet recovered as an existing implementation."
+  - id: "module.speech.fractal-whisper"
+    name: "Fractal Whisper / heyMicojava SVG Pipeline"
+    requisite_skills: [speech_to_text_system_design, svg_metadata_parsing, svg_dimension_extraction, sha256_asset_fingerprinting, tilesheet_manifest_generation, render_intent_registry_integration]
+    evidence: [conversation_recovered, specification_recovered, source_recovered]
+    repository: "git4emet/DoinBetter-Fractal-Whisper"
+    source_paths: [scripts/build_tilesheet.py]
+  - id: "module.domain.floodwater"
+    name: "Floodwater / GSOC / AHJ / Drill Coordinator"
+    requisite_skills: [systems_translation, queue_orchestration, hyperlinked_documentation, vocabulary_variant_generation, desktop_overlay_design, agent_coordination, provenance_tracking, deployment_readiness, drill_playbook_generation, after_action_summaries]
+    evidence: [conversation_recovered, specification_recovered, source_recovered]
+    repository: "git4emet/DoinBetter-Floodwater"
+    source_paths: [skills.md]
+  - id: "module.webgpu.benchmark"
+    name: "WebGPU Benchmark Suite"
+    requisite_skills: [wgsl_compute, particle_simulation, tiled_matrix_multiplication, shared_memory_optimization, gpu_cpu_benchmarking, image_processing_pipeline, grayscale, gaussian_blur, sobel_edge_detection, thresholding, instanced_rendering]
+    evidence: [source_recovered]
+    repository: "git4emet/webgpu-sieve-sorting-cam-trobe"
+  - id: "module.webgpu.neon"
+    name: "WebGPU Neon Simulation"
+    requisite_skills: [wgsl_compute, ping_pong_float_textures, pointer_interaction, realtime_parameter_controls, shader_uniform_buffers, fluid_inspired_visualization]
+    evidence: [source_recovered]
+    repository: "git4emet/webgpu-sieve-sorting-strobe-cam"
+  - id: "module.exchange.xdcomms"
+    name: "XDcomms Golden Event Consumer"
+    requisite_skills: [incremental_sse_decoder, crlf_handling, multiline_sse_data, receipt_validation, ordered_event_consumption, checkpoint_resume, duplicate_frame_handling, explicit_avenue_selection, upstream_contract_pinning, cross_language_fixture_testing]
+    evidence: [source_recovered, tests_present]
+    repository: "git4emet/XDcomms"
+    source_paths: [services/providers/golden-client.ts, services/providers/golden-client.test.ts, shared-contract.lock.json]
+historical_or_noncanonical:
+  - module: "Legacy Hypergraph Router in mobiius-ops-console"
+    recovered_skills: [toroidal_addressing, 192_face_projection, immutable_event_records, append_only_hash_chain, hash_verification, capability_registry_pattern, artifact_lifecycle, schema_validation, test_design]
+    excluded_from_coordinate_core: [seven_gates, trust_floor, trust_score, decisional_intensity, guardian_verdict, allow_deny_evaluation]
+    repository: "git4emet/mobiius-ops-console"
+  - module: "Composite Kernel v0.2"
+    recovered_skills: [multi_source_ingestion, verb_extraction, tuple_graph, divergence_field_representation, correction_operator_prototype, coherence_state_representation, harmonic_step_representation, ledger_persistence, agent_loop_design]
+    note: "Historical architecture; its evaluation/correction stages are not current coordinate traversal stages."
+  - repository_name_mismatches:
+      skillcoin-tensorings: "Roundcube ElasticLayouts plugin snapshot"
+      stateStateColorStates: "Roundcube TaskWatermark plugin snapshot"
+      HeptradiControlFeeds: "Roundcube Swipe plugin snapshot"
+      Meta-HyperwebMCaPiB0xG0PHiRayTracing: "WebMCP AI CEO simulator; README does not establish ray tracing"
