@@ -241,3 +241,41 @@ historical_or_noncanonical:
       stateStateColorStates: "Roundcube TaskWatermark plugin snapshot"
       HeptradiControlFeeds: "Roundcube Swipe plugin snapshot"
       Meta-HyperwebMCaPiB0xG0PHiRayTracing: "WebMCP AI CEO simulator; README does not establish ray tracing"
+
+additional_modules:
+  - id: "module.vomega.six-domain-lattice"
+    name: "Möbii³us vΩ Six-Domain Lattice"
+    requisite_skills: [six_domain_lattice_representation, seven_unit_sector_indexing, snapshot_capture, state_serialization, inverse_transform_representation_when_defined, reinjection, event_logging, chirality_payload_representation, coherence_state_visualization]
+    diagram_labels:
+      - "Physical / Quantum"
+      - "Environmental / Planetary"
+      - "Cognitive / Linguistic"
+      - "Emotional / DreamStream"
+      - "Ethical / Guardian"
+      - "Meta / Simulation"
+    evidence: [specification_recovered, source_recovered]
+    repository: "git4emet/systemsNxXD"
+    note: "Diagram labels and concepts recovered; no executable 42-step runtime or physical model is asserted."
+  - id: "module.guardian.telemetry"
+    name: "Guardian Telemetry"
+    requisite_skills: [state_observation, event_recording, change_log_capture, state_correlation, phase_plane_visualization, tensor_transition_visualization, telemetry_presentation, source_linked_observations]
+    evidence: [conversation_recovered, specification_recovered]
+    repository: "git4emet/systemsNxXD"
+    note: "Observation and telemetry layer; not an ethics evaluator or coordinate gate."
+  - id: "module.resources.latent-inventory"
+    name: "Resource Economics / Latent Inventory"
+    requisite_skills: [resource_inventory_modeling, waste_stream_characterization, recoverable_resource_mapping, processing_cost_estimation, recovered_value_accounting, net_value_calculation, material_flow_provenance, cross_sector_resource_relations]
+    evidence: [conversation_recovered, specification_recovered]
+    repository: "git4emet/DoinBetter-Floodwater"
+  - id: "module.integration.connector-bus"
+    name: "Connector Tool Bus"
+    requisite_skills: [connector_capability_discovery, connection_state_inspection, read_path_inventory, external_write_surface_identification, protocol_mapping, tool_workmode_discovery, reauthentication_state_reporting, action_receipt_capture]
+    evidence: [specification_recovered]
+    repository: "git4emet/systemsNxXD"
+    note: "Adobe Express Diagram Build is a historical status snapshot, not current connection-state evidence."
+  - id: "module.agents.local-transform-revealers"
+    name: "13-Agent / 12-Space Local Transform Model"
+    requisite_skills: [local_transform_execution, coordinate_crossing, correlate_reveal, local_compression, coordinate_resolution, relation_exposure, script_recording]
+    evidence: [conversation_recovered, specification_recovered]
+    repository: "git4emet/systemsNxXD"
+    note: "Project design description; no running agent fleet is asserted."
