@@ -330,3 +330,25 @@ additional_modules:
     evidence: [conversation_recovered, specification_recovered]
     repository: "git4emet/systemsNxXD"
     note: "Cosmological Betti-curve, Wasserstein-distance, and void-topology applications are conversation-recovered research claims. Exact arXiv identifiers, simulation catalogs, and methodological conditions remain to be attached before source verification."
+
+  - id: "module.product.partychain-surfaces"
+    name: "PartyChain / CatLabs Product Surfaces"
+    requisite_skills: [product_surface_schema, room_state_representation, action_identifier_catalog, domain_role_mapping, workflow_stage_representation, person_role_representation, pairwise_relationship_serialization, source_manifest_generation, artifact_hash_registration, reply_and_invitation_flow_representation, visual_vocabulary_mapping]
+    evidence: [source_recovered, specification_recovered]
+    repository: "git4emet/civic-moonflowers"
+    source_paths: [src/lib/schema.ts, attachments/partychain_vision_for_everybody_hypergraph_20260704.json]
+    note: "The JSON artifact is titled hypergraph but contains nodes and binary from/to edges, not arbitrary-cardinality hyperedges. Guardian is labelled as a product policy gate in this artifact, not as a coordinate-core primitive."
+  - id: "module.adapter.hgraph-receipt-lens"
+    name: "HGraph Typed Receipt Lens"
+    requisite_skills: [receipt_digest_verification, typed_compound_scalar_mapping, event_identity_preservation, source_receipt_preservation, time_series_pass_through, replay_fixture_design, invalid_receipt_rejection]
+    evidence: [source_recovered, tests_present]
+    repository: "git4emet/systemsNxXD"
+    source_paths: [adapters/hgraph/receipt_lens.py, adapters/hgraph/test_receipt_lens.py]
+    note: "Downstream HGraph 0.8.1 adapter; it passes typed receipt views through a temporal graph. It is not a general hypergraph or persistent-homology implementation. Tests are present but were not executed in this pass."
+  - id: "module.research.prvpda-carrier-modulation"
+    name: "PRVPDA / PPPVPDCMAS Carrier-Modulation Research"
+    requisite_skills: [caputo_fractional_gradient_history, carrier_phase_modulation, projective_homogeneous_coordinates, selective_state_context_compression, elastic_weight_consolidation, dedicated_gpio_bit_banging, i2s_dma_parallel_streaming, esp32_s3_simd, distributed_mesh_compute, ledc_carrier_generation, rainbow_table_indexing, source_claim_attribution, hardware_benchmark_design]
+    evidence: [specification_recovered]
+    repository: "git4emet/civic-moonflowers"
+    source_paths: [attachments/ManifestSKILLmanifests.md]
+    note: "Manifest-only skill specification. It names implementation scripts not found in the inspected repository tree. Mathematical, hardware, throughput, and measured-speedup claims remain unverified until linked to external sources and executable evidence."
