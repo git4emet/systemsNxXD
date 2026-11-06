@@ -477,3 +477,26 @@ This is a strong candidate for the Artifact Atlas ingestion/skill-packaging adap
 - **Communications:** TCP messaging, SSE transport, sequence checkpoints, explicit selection submission, and event receipt validation.
 
 These skill families connect the recovered prototypes without requiring their implementations to be collapsed into a single repository.
+
+## 12. Higher-order and persistent-topology research extension
+
+A new [Higher-Order Relations and Persistent Topology specification](physics-grounded-higher-order-topology.md) records two additive evidence capabilities:
+- arbitrary-cardinality hyperedges for multi-participant relations and higher-order correlations;
+- persistent-topology observations across explicitly parameterized filtrations, including Betti curves, persistence diagrams/strips, and void features.
+
+These capabilities do not change the coordinate traversal contract. They are evidence-layer representations, not selection or evaluation stages.
+
+**Implementation boundary:** inspection of `packages/coordinate_core/dr_shift.py`, `packages/contracts/golden-event.ts`, and `services/golden_event_bridge/bridge.py` found point-to-point avenue traversal, receipt sealing, SQLite replay, and SSE publication. The inspected files do not yet implement typed hyperedges or persistent homology. The new modules are specification/research records, not existing runtime features.
+
+## 13. Additional project-artifact parsing
+
+The current source pass inspected the uploaded `Quantum Learning Map.txt`, `Möbii³us Core Integration.txt`, `Adobe Express Diagram Build.txt`, `Platform architecture synthesis.txt`, the vΩ JSON specification, the vΩ SVG, and the PDF bundled alongside it.
+
+Recovered contributions:
+- **Quantum Learning Map:** historical Composite Kernel v0.2; ingestion, verb extraction, tuple graph, divergence/correction/coherence representation, harmonic step, ledger, and agent-loop design. Preserve its capabilities as historical skill evidence; do not restore correction/evaluation stages to current traversal.
+- **Möbii³us Core Integration:** Guardian telemetry and state observation; operational coordination graph; Gopher State/811 workflow chain; cross-platform artifact connectivity; latent resource inventory; Workspace, Knowledge, Operations, Telemetry, and Intelligence surfaces.
+- **Adobe Express Diagram Build:** historical connector/tool-bus status snapshot, including Gmail, Dropbox, Asana, Conductor, Zoom RA, and work-mode references. Its statuses are timestamp-specific and are not current connection claims.
+- **Platform architecture synthesis:** Mercury Mirror Exchange; capability declaration and contact-point binding; red/blue exchange-channel concept; vocabulary transcoder; deployment across local, edge, container, and cloud scales; historical terminology separation.
+- **vΩ bundle:** project identity, TOFAR codename, Buddy lead module, fractional tensor lattice description, six-domain diagram labels, and vector-artifact metadata.
+
+These documents are specifications and conversation-derived descriptions. They do not independently prove a deployed connector mesh, production agent fleet, or executable six-domain physical model.
