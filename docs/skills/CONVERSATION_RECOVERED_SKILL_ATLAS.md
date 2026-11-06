@@ -386,3 +386,94 @@ The Adobe Express Diagram Build source records a historical tool-bus snapshot wi
 **Requisite skills:** local transform execution; coordinate crossing; correlate reveal; local compression; coordinate resolution; relation exposure; script recording.
 
 The conversation-derived model describes agents as coordinate revealers. They expose local relations; they do not deliberate, vote, or govern one another. The stated 13-agent / 12-space configuration is a project design description, not a verified running agent fleet.
+
+
+## 17. Additional repository prototypes: GPU, WASM, local inference, and communications
+
+### 17.1 Text Goes Boom / Shootin-the-Skeet-Scene
+**Repository:** [Shootin-the-Skeet-Scene](https://github.com/git4emet/Shootin-the-Skeet-Scene).
+
+Source inspection recovered a concrete Rust/WASM + WebGPU pipeline:
+
+- Canvas text rasterization into an RGBA pixel buffer.
+- Alpha-mask construction.
+- Felzenszwalb–Huttenlocher exact Euclidean distance transform and signed-distance-field normalization.
+- Uniform-grid particle sampling with deterministic LCG seeding.
+- Spatial-grid neighborhood relaxation and mask-constrained particle placement.
+- Packing particle records into two vec4 payloads.
+- WGSL compute shader for spring return, seeded noise, pointer repulsion, damping, and boundary handling.
+- WGSL instanced rendering with SDF-derived color, per-particle shimmer, and additive blending.
+- Parallel TypeScript implementation for WASM-versus-JS timing comparison.
+
+The inspected WGSL declares:
+- `ParticleA.a: vec4<f32>` for position.xy and velocity.xy.
+- `ParticleB.b: vec4<f32>` for home.xy, seed, and SDF value.
+- `SimParams` and `RenderParams` uniform structs.
+
+This is concrete source evidence for vec4 carrier packing and semantic field grouping. It does not yet provide a separate versioned modal-schema registry, cross-variant reflection contract, or packing receipt. HFPS therefore has partial implementation evidence, while the full HFPS schema remains a proposed synthesis.
+
+### 17.2 WASM vs JavaScript Benchmark Suite
+**Repository:** [wasm-js-ATBASH-omni-plexing](https://github.com/git4emet/wasm-js-ATBASH-omni-plexing).
+
+**Requisite skills:** Rust-to-WASM compilation; wasm-bindgen exports; JavaScript/WASM benchmark parity; matrix-style numeric workloads; factorial modulo arithmetic; image convolution; box blur; Gaussian blur; grayscale; nearest-neighbor resizing; wave distortion; Sobel edge detection; nonlinear edge processing; pixel hashing; image blending; browser timing with `performance.now()`.
+
+The README states that measurements are made in the same browser tab without workers or offloading and that results depend on CPU, browser engine, and image resolution. Its performance conclusions are source claims, not independently reproduced measurements in this review.
+
+### 17.3 LiveCam AI / Rec-Live-ish
+**Repository:** [Rec-Live-ish](https://github.com/git4emet/Rec-Live-ish).
+
+**Requisite skills:** webcam frame capture; periodic image sampling; image-captioning model integration; ViT encoder / GPT-2 decoder inference; ONNX model loading; Transformers.js; WebGPU execution; WASM/CPU fallback for shape operations; browser model caching; Vite and TypeScript integration.
+
+The README describes frame capture every 2.5 seconds and entirely browser-local inference. Implementation files were not inspected in this pass.
+
+### 17.4 Friendly Commits / message4k2O0254PartyLine
+**Repository:** [message4k2O0254PartyLine](https://github.com/git4emet/message4k2O0254PartyLine).
+
+Source inspection recovered:
+- On-device Qwen2.5-Coder-0.5B-Instruct inference through Transformers.js and ONNX.
+- Web Worker model execution.
+- Typed request/response messages.
+- Worker request correlation by ID.
+- Pending-promise resolution and rejection.
+- Git diff/snippet to Conventional Commit message generation.
+- Local-only browser operation without a backend.
+
+The README describes the application as fully local; the inspected worker loads a quantized `q8` text-generation pipeline. No model performance benchmark was run in this review.
+
+### 17.5 Group-Chat-Room
+**Repository:** [Group-Chat-Room](https://github.com/git4emet/Group-Chat-Room).
+
+**Requisite skills:** TCP client/server communication; participant registration; message send/receive; server-side message broadcast; participant-list synchronization; Java 8; JavaFX client interface.
+
+The README was inspected; source implementation was not inspected in this pass.
+
+### 17.6 Skill Seekers ingestion and skill packaging
+**Repository copy:** [ContactResumes](https://github.com/git4emet/ContactResumes). The README identifies this as Skill Seekers v3.7.0; the repository map retains it as an attributed ingestion-adapter candidate. The upstream project is [yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers).
+
+The inspected README and architecture document describe:
+- Documentation, GitHub, PDF, Word, EPUB, HTML, PowerPoint, Jupyter, chat, RSS, and video source ingestion.
+- OCR and table extraction for PDFs.
+- GitHub repository and codebase analysis.
+- AST parsing, design-pattern detection, dependency analysis, test-example extraction, and guide generation.
+- Multi-source configuration and unified scraping.
+- Missing-in-code / missing-in-docs and signature/description conflict detection.
+- AI-assisted skill enhancement.
+- RAG chunking and multi-provider embeddings.
+- Output adaptors for AI skills and RAG frameworks.
+- Skill packaging, upload, and installation for agent environments.
+- FastMCP server and tool adapters.
+- Documentation change detection and incremental re-scraping.
+- S3, GCS, and Azure storage adapters.
+- Benchmarking and shared parsing utilities.
+
+This is a strong candidate for the Artifact Atlas ingestion/skill-packaging adapter. Preserve upstream authorship, license, and version. The account repository is not treated as proof that this third-party tool has been integrated into the Möbii³us runtime.
+
+## 18. Shared skill families revealed by the new repositories
+
+- **GPU/WASM bridge:** typed-array interchange; WASM memory transfer; deterministic seeds; JS/WASM parity fixtures; compute/render pipeline boundaries.
+- **Local model execution:** ONNX model loading; Transformers.js pipelines; WebGPU/WASM backend fallback; model caching; Web Worker request/response correlation.
+- **Image and glyph geometry:** RGBA mask extraction; Euclidean distance transforms; SDF normalization; spatial-grid relaxation; particle packing; instanced rendering.
+- **Skill extraction pipeline:** multi-source scraping; source detection; codebase analysis; conflict detection; RAG chunking; embeddings; platform-specific skill packaging; sync.
+- **Communications:** TCP messaging, SSE transport, sequence checkpoints, explicit selection submission, and event receipt validation.
+
+These skill families connect the recovered prototypes without requiring their implementations to be collapsed into a single repository.
