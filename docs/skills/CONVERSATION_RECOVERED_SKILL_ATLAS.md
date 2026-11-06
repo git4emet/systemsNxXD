@@ -521,3 +521,5 @@ The [arXiv Folds and Embedded Prototype Extraction](arxiv-folds-and-embedded-pro
 The embedded OmniSplat code labels its data structure a hypergraph, but its `HyperEdge(source, target)` is pairwise and the builder creates token co-occurrence edges from sliding windows. It is not a true higher-order hypergraph. The same source describes a relational file-card indexer and projective beam geometry. The Plücker/Klein section contains an inverted incidence predicate and is explicitly marked for mathematical correction before implementation.
 
 The artifact's old master-memory and clamp-reflection designs contain route/guard/approval/gate stages. These are historical source material, not stages in the current coordinate traversal.
+
+The 205 unique arXiv identifiers found in that mixed artifact are indexed separately in [the Buddy Skills arXiv identifier inventory](../research/arxiv-identifier-inventory-buddy-skills-fold.md). This is a discovery list, not a verified bibliography or a claim that 793 papers were individually reviewed.
