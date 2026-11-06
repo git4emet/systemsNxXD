@@ -317,3 +317,16 @@ additional_modules:
     repository: "git4emet/ContactResumes"
     upstream: "https://github.com/yusufkaraaslan/Skill_Seekers"
     note: "Attributed Skill Seekers v3.7.0 repository copy; candidate adapter, not claimed integrated into the Möbii³us runtime."
+
+  - id: "module.research.hypergraph-reconstruction"
+    name: "Higher-Order Collider Event Reconstruction"
+    requisite_skills: [hypergraph_representation, incidence_structure_serialization, arbitrary_cardinality_relations, higher_order_correlation_extraction, particle_event_reconstruction, parent_particle_assignment, jet_lepton_event_context, diffusion_kinematics_prediction, prediction_observation_separation, dataset_and_model_provenance]
+    evidence: [conversation_recovered, specification_recovered]
+    repository: "git4emet/systemsNxXD"
+    note: "VyPER, H-EMPN, and H-GNN are research examples recovered from the project conversation. Exact paper identifiers and reported metric conditions remain to be attached; numerical claims are not independently verified in this registry entry."
+  - id: "module.topology.persistent-homology"
+    name: "Persistent Topology and Cosmological Evidence"
+    requisite_skills: [filtration_construction, filtration_parameter_provenance, persistent_homology, betti_curve_computation, persistence_diagram_representation, persistence_strips, wasserstein_distance, void_topology_representation, connected_component_tracking, simulation_observation_separation, cosmological_parameter_inference_provenance, reproducible_topology_pipeline]
+    evidence: [conversation_recovered, specification_recovered]
+    repository: "git4emet/systemsNxXD"
+    note: "Cosmological Betti-curve, Wasserstein-distance, and void-topology applications are conversation-recovered research claims. Exact arXiv identifiers, simulation catalogs, and methodological conditions remain to be attached before source verification."
