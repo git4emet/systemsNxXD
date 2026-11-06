@@ -352,3 +352,32 @@ additional_modules:
     repository: "git4emet/civic-moonflowers"
     source_paths: [attachments/ManifestSKILLmanifests.md]
     note: "Manifest-only skill specification. It names implementation scripts not found in the inspected repository tree. Mathematical, hardware, throughput, and measured-speedup claims remain unverified until linked to external sources and executable evidence."
+
+  - id: "module.ingestion.omnisplat"
+    name: "OmniSplat / Splat Forge Token Graph Prototype"
+    requisite_skills: [zip_archive_ingestion, text_format_dispatch, regex_tokenization, contextual_token_classification, carrier_verb_extraction, sliding_window_frame_generation, md5_frame_fingerprinting, glossary_frequency_accounting, token_cooccurrence_graph_construction, graph_json_serialization, qec_query_event_command_parsing, websocket_query_server, http_query_handler, cli_output_generation]
+    evidence: [source_recovered, specification_recovered]
+    repository: "git4emet/civic-moonflowers"
+    source_paths: [attachments/Recent arXiv folds into Buddy Skills.txt]
+    note: "Code is embedded in a conversation/archive text file and was not executed. Its HyperEdge has one source and one target; this is a pairwise token co-occurrence graph, not a general hypergraph. MD5 identifiers are not provenance-grade receipts."
+  - id: "module.ingestion.relational-file-atlas"
+    name: "Relational File Atlas / Probe and Index Card Mechanic"
+    requisite_skills: [directory_and_archive_intake, schema_aware_file_indexing, lane_metadata_extraction, suit_metadata_extraction, phase_anchor_extraction, seed_deck_lookup, source_linked_card_generation, ndjson_card_persistence, slot_proposal_generation, hud_data_integration, voice_intent_integration, api_card_retrieval, conversation_position_provenance]
+    evidence: [specification_recovered]
+    repository: "git4emet/civic-moonflowers"
+    source_paths: [attachments/Recent arXiv folds into Buddy Skills.txt]
+    note: "Described in an embedded relational atlas; the named script and referenced HUD/API files were not independently recovered as source files in this pass."
+  - id: "module.geometry.projective-beams"
+    name: "Projective Beam Geometry / Plucker-Klein Representation"
+    requisite_skills: [homogeneous_point_representation, plucker_line_coordinates, klein_quadric_constraint, line_incidence_testing, line_complex_representation, line_congruence_representation, projective_transform_composition, rigid_transform_composition, beam_geometry_visualization]
+    evidence: [specification_recovered]
+    repository: "git4emet/civic-moonflowers"
+    source_paths: [attachments/Recent arXiv folds into Buddy Skills.txt]
+    note: "The embedded explanation reverses the standard Plucker incidence predicate: vanishing bilinear pairing indicates line incidence/intersection, not skewness. Preserve the mathematical objects; independently verify predicates before implementation."
+  - id: "module.research.recursive-language-functions"
+    name: "Recursive Language Model Research Function Families"
+    requisite_skills: [paper_identifier_indexing, search_snapshot_capture, bibliography_metadata_extraction, context_compression, invariant_preserving_compression, recursive_state_representation, semantic_alignment, symbolic_rule_extraction, state_estimation, provenance_aware_literature_mapping]
+    evidence: [specification_recovered]
+    repository: "git4emet/civic-moonflowers"
+    source_paths: [attachments/Recent arXiv folds into Buddy Skills.txt]
+    note: "The source is a mixed conversation dump with 205 unique arXiv IDs, not a complete 793-paper corpus. Copilot-generated paper mappings are interpretations, not literature findings."
