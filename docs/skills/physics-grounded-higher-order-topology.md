@@ -177,3 +177,19 @@ Keep the coordinate runtime's traversal records stable. Add higher-order and top
 - the distinction between a discovered relation and a traversed avenue.
 
 Do not place model scores, scientific significance, persistence values, or confidence values into avenue-selection semantics. Such values may be domain-specific observations with their own units and methods.
+
+## 11. vΩ diagram extraction detail
+
+The bundled PDF text layer yields the following visible labels:
+- Physical / Quantum
+- Environmental / Planetary
+- Cognitive / Linguistic
+- Emotional / DreamStream
+- Ethical / Guardian
+- Meta / Simulation
+- Chirality Payloads
+- Coherence Uplift
+- Inverse Recursion
+- Snapshot R¹ Reinject Log
+
+The companion SVG is 720pt × 540pt, SVG 1.1, and Matplotlib-generated. It contains grouped vector paths and `use` elements but no SVG `text` elements; visible lettering has been converted to vector geometry. The PDF therefore provides a more direct text-extraction surface, while the SVG preserves scalable vector artwork. Neither file demonstrates that the six-domain lattice is an executable simulation.
