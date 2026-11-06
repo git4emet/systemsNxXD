@@ -144,3 +144,36 @@ Conversation and project artifacts inspected in this parsing pass:
 - `mobiius_lattice_vOmega.svg`: 720pt × 540pt SVG 1.1, Matplotlib-generated, with vector paths and groups; visual source artifact, not executable runtime evidence.
 
 The source files above establish project concepts and specifications. They do not by themselves establish tested implementation or verified deployment.
+
+## 9. Current implementation boundary from source inspection
+
+The shared coordinate runtime was inspected in:
+- `packages/coordinate_core/dr_shift.py`
+- `tests/test_coordinate_core.py`
+- `packages/contracts/golden-event.ts`
+- `services/golden_event_bridge/bridge.py`
+- `tests/test_event_bridge.py`
+
+The inspected implementation currently:
+- enumerates the current point's registered avenue records;
+- consumes an explicit caller-supplied avenue identifier;
+- records a traversal with `event_id`, `from`, `via`, `to`, `script`, and `timestamp`;
+- seals receipts over canonical JSON bytes with SHA-256 and previous-receipt linkage;
+- persists and replays traversals through SQLite;
+- publishes Golden Events through an SSE bridge.
+
+The inspected coordinate contract is a point-to-point avenue table. The files inspected do **not** currently define a typed hyperedge schema, incidence structure, filtration, Betti curve, persistence diagram, persistence strip, or persistent-homology computation. The new research modules are therefore registered capabilities and specifications, not claims of existing runtime implementation.
+
+The coordinate source also documents that script strings are descriptors and are not executed by the prototype. Receipt digests attest to recorded bytes; they do not authenticate a signer or establish external truth. Test files are present, but test execution was not performed as part of this parsing pass.
+
+## 10. Integration seam
+
+Keep the coordinate runtime's traversal records stable. Add higher-order and topological observations to the evidence/research layer, linked to source points and datasets. If a later implementation needs to expose those structures as coordinate relations, use explicit adapters that preserve:
+- the original participant set;
+- the original domain relationship;
+- the filtration and its units/parameters;
+- the source dataset and algorithm versions;
+- the evidence class and provenance;
+- the distinction between a discovered relation and a traversed avenue.
+
+Do not place model scores, scientific significance, persistence values, or confidence values into avenue-selection semantics. Such values may be domain-specific observations with their own units and methods.
