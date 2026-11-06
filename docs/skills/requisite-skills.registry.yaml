@@ -196,10 +196,10 @@ modules:
     repository: "git4emet/systemsNxXD"
   - id: "module.shader.hfps"
     name: "Hybrid Fractional Payload Schema"
-    requisite_skills: [uniform_semantic_declaration, vec4_component_packing, precision_representation, std140_layout_engineering, shader_reflection, implementation_limit_query, backend_layout_adapters, packing_receipts]
-    evidence: [conversation_recovered, specification_recovered]
-    repository: "git4emet/webgpu-sieve-sorting-strobe-cam"
-    note: "Proposed synthesis from research discussion; not yet recovered as an existing implementation."
+    requisite_skills: [uniform_semantic_declaration, vec4_component_packing, precision_representation, wgsl_uniform_structs, shader_reflection, implementation_limit_query, backend_layout_adapters, packing_receipts]
+    evidence: [conversation_recovered, specification_recovered, source_recovered]
+    repository: "git4emet/Shootin-the-Skeet-Scene"
+    note: "WGSL vec4 payload packing and uniform structs are source-recovered; a separate modal-schema registry, reflection contract, and packing receipts remain proposed."
   - id: "module.speech.fractal-whisper"
     name: "Fractal Whisper / heyMicojava SVG Pipeline"
     requisite_skills: [speech_to_text_system_design, svg_metadata_parsing, svg_dimension_extraction, sha256_asset_fingerprinting, tilesheet_manifest_generation, render_intent_registry_integration]
@@ -279,3 +279,41 @@ additional_modules:
     evidence: [conversation_recovered, specification_recovered]
     repository: "git4emet/systemsNxXD"
     note: "Project design description; no running agent fleet is asserted."
+
+  - id: "module.webgpu.text-boom"
+    name: "Text Goes Boom / Rust-WASM Particle Pipeline"
+    requisite_skills: [canvas_text_rasterization, rgba_mask_extraction, felzenszwalb_huttenlocher_edt, signed_distance_fields, deterministic_lcg, uniform_grid_particle_sampling, spatial_grid_relaxation, wasm_bindgen, rust_wasm_interop, wgsl_compute, spring_dynamics, seeded_noise, pointer_repulsion, boundary_handling, vec4_payload_packing, wgsl_instanced_rendering, additive_blending, js_wasm_parity_benchmark]
+    evidence: [source_recovered, specification_recovered]
+    repository: "git4emet/Shootin-the-Skeet-Scene"
+    source_paths: [wasm/src/sdf.rs, wasm/src/relax.rs, wasm/src/rng.rs, wasm/src/particles.rs, src/benchmark.ts, src/gpu/shaders/textBoom.compute.wgsl, src/gpu/shaders/textBoom.render.wgsl]
+  - id: "module.wasm.benchmark-suite"
+    name: "WASM vs JavaScript Benchmark Suite"
+    requisite_skills: [rust_wasm_compilation, wasm_bindgen_exports, js_wasm_benchmark_parity, numeric_workloads, factorial_modulo_arithmetic, image_convolution, box_blur, gaussian_blur, grayscale, nearest_neighbor_resize, wave_distortion, sobel_edge_detection, nonlinear_edge_processing, pixel_hashing, image_blending, browser_timing]
+    evidence: [source_recovered, specification_recovered]
+    repository: "git4emet/wasm-js-ATBASH-omni-plexing"
+    source_paths: [rust-wasm/src/numeric.rs, rust-wasm/src/image_pipeline.rs, rust-wasm/src/lib.rs]
+  - id: "module.vision.livecam"
+    name: "LiveCam AI"
+    requisite_skills: [webcam_capture, periodic_frame_sampling, image_captioning, vit_encoder_inference, gpt2_decoder_inference, onnx_model_loading, transformers_js, webgpu_inference, wasm_cpu_fallback, browser_model_caching]
+    evidence: [specification_recovered]
+    repository: "git4emet/Rec-Live-ish"
+    note: "README documents architecture; implementation files were not inspected in this pass."
+  - id: "module.local-llm.friendly-commits"
+    name: "Friendly Commits"
+    requisite_skills: [onnx_model_loading, transformers_js, qwen_coder_inference, quantized_model_configuration, web_worker_execution, typed_worker_messages, request_id_correlation, pending_promise_management, diff_interpretation, conventional_commit_generation, local_browser_inference]
+    evidence: [source_recovered, specification_recovered]
+    repository: "git4emet/message4k2O0254PartyLine"
+    source_paths: [src/logic/commitMessageModel.ts, src/workers/commitWorker.ts]
+  - id: "module.communication.tcp-chat"
+    name: "Group Chat Room"
+    requisite_skills: [tcp_server_client, participant_registration, message_send_receive, server_broadcast, participant_list_sync, java8, javafx_client_ui]
+    evidence: [specification_recovered]
+    repository: "git4emet/Group-Chat-Room"
+    note: "README documents the application; source implementation was not inspected in this pass."
+  - id: "module.archive.skill-seekers"
+    name: "Skill Seekers Ingestion and Packaging Adapter"
+    requisite_skills: [multi_source_scraping, source_type_detection, github_scraping, pdf_extraction, ocr, table_extraction, office_document_extraction, video_transcription, video_frame_extraction, codebase_ast_analysis, design_pattern_detection, dependency_analysis, test_example_extraction, multi_source_merge, conflict_detection, skill_generation, ai_skill_enhancement, rag_chunking, embedding_generation, output_adaptors, skill_packaging, skill_upload, agent_installation, mcp_server, documentation_sync, cloud_storage_adaptors, benchmark_framework]
+    evidence: [source_recovered, specification_recovered]
+    repository: "git4emet/ContactResumes"
+    upstream: "https://github.com/yusufkaraaslan/Skill_Seekers"
+    note: "Attributed Skill Seekers v3.7.0 repository copy; candidate adapter, not claimed integrated into the Möbii³us runtime."
