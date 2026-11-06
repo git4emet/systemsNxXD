@@ -513,3 +513,11 @@ A separate [Civic Moonflowers and Legacy Router Source-Facet Extraction](civic-m
 The legacy router's isolated reusable facets are retained as historical skills: address projection, event records, hash-chain receipts, tamper detection, immutable payload patterns, capability registry, artifact lifecycle, and schema validation. Its trust-floor, gate, verdict, and allow/reject routing behavior remains excluded from the canonical coordinate core.
 
 Two repository artifacts remain unparsed in this pass: `Recent arXiv folds into Buddy Skills.txt` (2,722,288 bytes; GitHub text extraction returned an empty body) and `3D_agent_shared_skill_schema_mapping.pdf` (identified but not text-extracted). They remain source-inventory entries, not assumed evidence.
+
+## 15. Large arXiv-fold conversation artifact
+
+The [arXiv Folds and Embedded Prototype Extraction](arxiv-folds-and-embedded-prototypes.md) records a 2.72 MB, 42,847-line mixed conversation/archive artifact. It contains an arXiv search snapshot, generated interpretations, design notes, code fragments, and a relational file atlas. The file contains 616 arXiv-ID mentions and 205 unique IDs; it does not contain a complete reviewed set of 793 papers.
+
+The embedded OmniSplat code labels its data structure a hypergraph, but its `HyperEdge(source, target)` is pairwise and the builder creates token co-occurrence edges from sliding windows. It is not a true higher-order hypergraph. The same source describes a relational file-card indexer and projective beam geometry. The Plücker/Klein section contains an inverted incidence predicate and is explicitly marked for mathematical correction before implementation.
+
+The artifact's old master-memory and clamp-reflection designs contain route/guard/approval/gate stages. These are historical source material, not stages in the current coordinate traversal.
