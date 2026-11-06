@@ -1,0 +1,214 @@
+# arXiv Identifier Inventory from the Buddy Skills Fold
+
+Source: `git4emet/civic-moonflowers/attachments/Recent arXiv folds into Buddy Skills.txt`
+Blob SHA: `f318ccad6cc30d77262768af9ef73afaeef02880`
+
+Unique identifiers extracted: 205.
+
+**Important:** this is an identifier inventory from a mixed conversation/search-result artifact, not a verified bibliography or a complete list of the 793 search results. Titles below are adjacent text captured from the source and may be partial or absent. Verify each identifier against arXiv metadata before treating it as a literature source.
+
+- [2601.07839](https://arxiv.org/abs/2601.07839): Hierarchical Sparse Plus Low Rank Compression of LLM
+- [2601.06100](https://arxiv.org/abs/2601.06100): Filtering Beats Fine Tuning: A Bayesian Kalman View of In Context Learning in LLMs
+- [2601.05280](https://arxiv.org/abs/2601.05280): On the Limits of Self-Improving in LLMs and Why AGI, ASI and the Singularity Are Not Near Without Symbolic Model Synthesis
+- [2601.05038](https://arxiv.org/abs/2601.05038): ArcAligner: Adaptive Recursive Aligner for Compressed Context Embeddings in RAG
+- [2607.02329](https://arxiv.org/abs/2607.02329): Grounded autonomous research: a fault-tolerant LLM pipeline from corpus to manuscript in frontier computational physics
+- [2607.02290](https://arxiv.org/abs/2607.02290): DisciplineGen-1M: A Large-Scale Dataset for Multidisciplinary Visual Generation and Editing
+- [2607.02276](https://arxiv.org/abs/2607.02276): A Comprehensive Analysis of Bs→D∗∗sℓνℓ Decays Within and Beyond the Standard Model
+- [2607.02242](https://arxiv.org/abs/2607.02242): Computable measures of fermionic non-Gaussianity from the covariance matrix
+- [2607.02203](https://arxiv.org/abs/2607.02203): Self-explainable Operator Learning for Discovering Spatial Patterns in Functional Data
+- [2607.02027](https://arxiv.org/abs/2607.02027): Grouped Orthogonal Arrays from Orthogonal Arrays and Difference Schemes
+- [2607.02015](https://arxiv.org/abs/2607.02015): Mirror Illusion Art
+- [2607.01922](https://arxiv.org/abs/2607.01922): Physics-based self-supervised learning of a deep network for single-shot in-line hologram reconstruction
+- [2607.01917](https://arxiv.org/abs/2607.01917): Analysis of the asymptotic density of endogamous diploid cellular automata
+- [2607.01887](https://arxiv.org/abs/2607.01887): LUCI on IBM Hardware: Error Suppression with Almost Half Syndrome Density
+- [2607.01694](https://arxiv.org/abs/2607.01694): Frequency Shift Physics-Informed Extreme Learning Machine for Solving High-Frequency Partial Differential Equations
+- [2607.01671](https://arxiv.org/abs/2607.01671): Self-Referential K-SAT and the Finite Analogue of Gödel's Incompleteness Theorem
+- [2607.01649](https://arxiv.org/abs/2607.01649): Joint elastic full waveform inversion of multi-component geophone and distributed acoustic sensing data
+- [2607.01568](https://arxiv.org/abs/2607.01568): A Validation Framework for Quantum Simulation of Spin Dynamics against Inelastic Neutron Scattering and Classical Simulation
+- [2607.01544](https://arxiv.org/abs/2607.01544): Formalized q-series: The Rogers-Ramanujan Identities and Beyond
+- [2607.01459](https://arxiv.org/abs/2607.01459): An introduction to Hammer v2: Helicity Amplitude Module for Matrix Element Reweighting
+- [2607.01428](https://arxiv.org/abs/2607.01428): FUSE: A Partitioned Field-Exchange Framework for Coupling Physics Simulations in FEBio
+- [2607.01372](https://arxiv.org/abs/2607.01372): AI-enabled gravitational-waves searches for binary neutron stars at optimal sensitivity
+- [2607.01320](https://arxiv.org/abs/2607.01320): Logarithmic negativity typically equals exact entanglement cost
+- [2607.01304](https://arxiv.org/abs/2607.01304): The Three Dimensions of ROS 2 Middleware
+- [2607.01116](https://arxiv.org/abs/2607.01116): Inclusive B¯s↦Xs¯cℓν¯ decays from lattice QCD: computational strategy and a first physical result
+- [2607.01100](https://arxiv.org/abs/2607.01100): CPDDNet: Color-Polarization Denoising and Demosaicking Network
+- [2607.00829](https://arxiv.org/abs/2607.00829): Stitched Embeddings: A Unified Latent Space for 3D Garments and 2D Patterns
+- [2607.00826](https://arxiv.org/abs/2607.00826): Synthesizing Compound Pulse Gadgets for Hamiltonian Simulation on Trapped-Ion Platforms
+- [2607.00713](https://arxiv.org/abs/2607.00713): A linear, decoupled and positivity-preserving time-staggered block-centered finite difference method for the multi-species Keller-Segel chemotaxis system
+- [2607.00559](https://arxiv.org/abs/2607.00559): Relaxation without ringdown for a compact object in modified gravity
+- [2607.00524](https://arxiv.org/abs/2607.00524): Geometric Shape Optimization for Limbless Locomotion
+- [2607.00417](https://arxiv.org/abs/2607.00417): EO-VGGT: Orbital Ray-Conditioned 3D Foundation Models for Satellite Multi-View Reconstruction
+- [2607.00378](https://arxiv.org/abs/2607.00378): Radial Interaction Tomography: Recognizing Non-Transitive Evolutionary Games from One Range-Expansion Image
+- [2607.00364](https://arxiv.org/abs/2607.00364): WarpagePINN: Thermal Warpage Prediction in Advanced Packaging via a Two-Stage Physics-Informed Neural Networks
+- [2607.00335](https://arxiv.org/abs/2607.00335): Rigorous analysis of the time-splitting methods for the semiclassical Dirac equation
+- [2607.00276](https://arxiv.org/abs/2607.00276): Testing Frontier Large Language Models' Physics Literacy in Parallel Physical Worlds
+- [2607.00185](https://arxiv.org/abs/2607.00185): Structural Pattern Mining in Inka Khipus: Unsupervised Clustering, Provenance Classification, and a Computational Validation of the Santa Valley Match
+- [2607.00178](https://arxiv.org/abs/2607.00178): A Scoping Review of Physics Informed Machine Learning for Wave Propagation Modeling in Seismology
+- [2607.00116](https://arxiv.org/abs/2607.00116): A Shallow Recurrent Decoder for Dynamic State Estimation with a Limited Number of PMUs in Power Systems
+- [2607.00095](https://arxiv.org/abs/2607.00095): SNAP-FM: Sparse Nonlinear Accelerated Projection for Physics-Constrained Generative Modeling
+- [2607.00087](https://arxiv.org/abs/2607.00087): Putting Jet Substructure on Track(s)
+- [2607.00026](https://arxiv.org/abs/2607.00026): Invariant Stochastic Filtering on SE(3) for Inertial-Encoder State Estimation of Serial Rigid Manipulators
+- [2606.31992](https://arxiv.org/abs/2606.31992): GQL-Based Physical-Constraint-Preserving High-Order Finite Difference Schemes for Special Relativistic Hydrodynamics in Arbitrary Dimensions
+- [2606.31910](https://arxiv.org/abs/2606.31910): Electrons on Helium and Entangled Quantum Sensors for Particle Physics
+- [2606.31833](https://arxiv.org/abs/2606.31833): Lazy-Move Compilation for Neutral-Atom Quantum Computers via a Buffer-Relay Fabric
+- [2606.31799](https://arxiv.org/abs/2606.31799): Correlation is magic in electronic structure Hamiltonians
+- [2606.31701](https://arxiv.org/abs/2606.31701): Unveiling Radio Transients with SKAO Telescopes
+- [2606.20366](https://arxiv.org/abs/2606.20366): Report number: AASKAII/Miller-Jones01
+- [2606.31668](https://arxiv.org/abs/2606.31668): SAMBA: A Scatter-Guided Masked Bidirectional Mamba Foundation Model for SAR Target Recognition
+- [2606.31611](https://arxiv.org/abs/2606.31611): Physical and Chemical Conditions of Molecular Gas in NGC 1068: The nuclear feedback in the circumnuclear disk and starburst ring
+- [2606.31588](https://arxiv.org/abs/2606.31588): Power law scaling for classification accuracy in physical neural networks
+- [2606.31351](https://arxiv.org/abs/2606.31351): A Quantum-Classical Surrogate Model for the Collision Operator of the Lattice Boltzmann Method
+- [2606.31350](https://arxiv.org/abs/2606.31350): Compactness Inference in Gravitational-Wave Mergers with PhenomDECO: Catalog Benchmarks and Robustness Diagnostics
+- [2606.31349](https://arxiv.org/abs/2606.31349): PGUDA: Pressure-Guided Unsupervised Domain Adaptation with Cross-Modal Knowledge Distillation for sEMG-Based Gesture Recognition
+- [2606.31303](https://arxiv.org/abs/2606.31303): Minimizing Quantized Semantic Age of Information (QSAoI) in Foundation Model-Based Semantic Communications
+- [2606.31218](https://arxiv.org/abs/2606.31218): The Sc, Ti, and V Abundance Discrepancy: Testing High-Mass IMF Variation and Massive-Star Rotation
+- [2606.31214](https://arxiv.org/abs/2606.31214): EasyScan_HEP 2: Agent-Ready Parameter Scans for High-Energy Physics
+- [2606.31157](https://arxiv.org/abs/2606.31157): Rethinking Foundation Model Collaboration: Enhancing Specialized Models through Proxy Task Reasoning
+- [2606.31147](https://arxiv.org/abs/2606.31147): WaterGen: Decoupling Scene and Medium in Underwater Image Generation
+- [2606.31065](https://arxiv.org/abs/2606.31065): Diffusion-Based Material Regularization for Physics-Based Inverse Rendering
+- [2606.31062](https://arxiv.org/abs/2606.31062): Rare Earth Ion Coupling Implements Attention-Like Reservoir Computing
+- [2606.31056](https://arxiv.org/abs/2606.31056): A Simplex-Inspired Architecture for Integrating Quantum Capabilities into Cyber-Physical Systems
+- [2606.30978](https://arxiv.org/abs/2606.30978): An Enhanced RPA-LDA Model for Ion Stopping Power from Cold Matter to High-Energy Density Plasmas: A Unified, Open-Source Framework
+- [2606.30961](https://arxiv.org/abs/2606.30961): ElemeNet: Multiscale Molecular Machine Learning with Uncertainty Quantification Across the Periodic Table
+- [2606.30920](https://arxiv.org/abs/2606.30920): Conditional Tropical Cyclogenesis Rates via Rare-Event Sampling in a Neural Weather Emulator
+- [2606.30870](https://arxiv.org/abs/2606.30870): Adaptive fine-tuning of foundation models for crystal structure prediction: Discovery of high-pressure phases in the CaFeNi system
+- [2606.30762](https://arxiv.org/abs/2606.30762): Athermality of generalized Gibbs ensembles
+- [2606.30726](https://arxiv.org/abs/2606.30726): AGN-driven outflows in dwarf galaxies from cosmological simulations: Internal properties and observational signatures
+- [2606.30725](https://arxiv.org/abs/2606.30725): Constrained particle on a group: from propagators to correlators
+- [2606.30713](https://arxiv.org/abs/2606.30713): Galaxy Power Spectrum at Two-Loop Order: Implications for Weak Lensing Surveys and New Physics
+- [2606.30630](https://arxiv.org/abs/2606.30630): Poisson bracket and L∞ algebras
+- [2606.30564](https://arxiv.org/abs/2606.30564): The Role of Vehicles in Digital Forensic Investigations: A Structured Synthesis of Digital Vehicle Forensic Characteristics
+- [2606.30553](https://arxiv.org/abs/2606.30553): COSM: A Cooperative Scheduling Framework for Concurrent PIM and CPU Execution on Mobile Devices
+- [2606.30495](https://arxiv.org/abs/2606.30495): McMg: A Learned Phase-Space Multi-channel Multigrid Preconditioner for Helmholtz Equation
+- [2606.30462](https://arxiv.org/abs/2606.30462): Stable Qubit Readout and the Identifiability of Population Change
+- [2606.30447](https://arxiv.org/abs/2606.30447): A Quantum Spectral Solver for Periodic Incompressible Stokes Flow
+- [2606.30442](https://arxiv.org/abs/2606.30442): The FIL Hypothesis: Inductive Biases Help with Kernel Engineering
+- [2606.30396](https://arxiv.org/abs/2606.30396): Provable Quantum Advantage for Dynamical Phase Transition
+- [2606.30385](https://arxiv.org/abs/2606.30385): Blueprint for a fault-tolerant compound photon-atom quantum architecture
+- [2606.30380](https://arxiv.org/abs/2606.30380): RenderFormer++: Scalable and Physically Grounded Feed-Forward Neural Rendering
+- [2606.30326](https://arxiv.org/abs/2606.30326): Construction of Nuclear Covariant Energy Density Functional from A Physics-Guaranteed Neural Network Approach
+- [2606.30274](https://arxiv.org/abs/2606.30274): Differential Invariants of Carrollian Spacetimes
+- [2606.30183](https://arxiv.org/abs/2606.30183): doi
+- [2606.30158](https://arxiv.org/abs/2606.30158): Compact deep learning pipeline for particle track reconstruction in the pCT detector system
+- [2606.30109](https://arxiv.org/abs/2606.30109): TacEvo: Self-Evolving Architecture Discovery for Robotic Tactile Perception via LLM-Driven Quality-Diversity Search
+- [2606.29989](https://arxiv.org/abs/2606.29989): Rendering Coherent Scattering via Quantum Collision Models
+- [2606.29974](https://arxiv.org/abs/2606.29974): Temporal modes of quantum states of light scattered by a two-level system
+- [2606.29936](https://arxiv.org/abs/2606.29936): OpenSPM: An Environment-Transferable Robotic Key Spatial Pose Memory and Closed-Loop High-Frequency Flow-Matching Action Generation Model
+- [2606.29924](https://arxiv.org/abs/2606.29924): DCGrasp: Distance-aware Controllable Grasp Generation
+- [2606.29898](https://arxiv.org/abs/2606.29898): Critical Interval MSE: Toward Reliable Offline Validation for Robot Manipulation Policies
+- [2606.29874](https://arxiv.org/abs/2606.29874): Implementation of Hyperelastic Physics-Augmented Neural Networks in the Explicit Finite Element Codes Simcenter Radioss and OpenRadioss with Applications to Impact Events
+- [2606.29766](https://arxiv.org/abs/2606.29766): Trajectory Optimization for Collision-Aware Redundant Robotic Multi-Axis Additive Manufacturing by Constrained Gradient Projection
+- [2606.29739](https://arxiv.org/abs/2606.29739): Quantum complexity resource in Gaussian boson sampling: Core structure of the semidefinite program
+- [2606.29702](https://arxiv.org/abs/2606.29702): Verified residual-specific explicit derivative kernels for physics-informed learning and discretized PDE adjoints
+- [2606.29636](https://arxiv.org/abs/2606.29636): Lie Group Diffusion Models for Hardware-Aware Quantum Circuit Synthesis
+- [2606.29610](https://arxiv.org/abs/2606.29610): Physics-Informed Neural Quantum Control for Extended Rovibrational Photoassociation in a Morse Molecular System
+- [2606.29547](https://arxiv.org/abs/2606.29547): Quantum simulation of molecular excited-state manifolds and energies using the TEPID-ADAPT-VQE algorithm
+- [2606.29515](https://arxiv.org/abs/2606.29515): Modelling the delayed shock-breakout emission following jet-launching binary neutron star mergers via relativistic MHD simulations
+- [2606.29510](https://arxiv.org/abs/2606.29510): Radial oscillations of quark stars in light of current astrophysical constraints: A comparative study
+- [2606.29504](https://arxiv.org/abs/2606.29504): Empirical Evaluation of Multi-Modal Touch Detection in Over-the-Shoulder Video Surveillance
+- [2606.29331](https://arxiv.org/abs/2606.29331): Sample Complexity of Scientific Discovery: PAC Learnability of Compositional Function Trees
+- [2606.29329](https://arxiv.org/abs/2606.29329): RAGA: Real Time Ray Traced Gaussian Shadow Casting for 3DGS Avatar-Scene Interaction
+- [2606.29320](https://arxiv.org/abs/2606.29320): Geometric Approach to Zero-Memory Quantum Dot Reservoir Computing
+- [2606.29276](https://arxiv.org/abs/2606.29276): Quantum algorithm for the nonlinear Schrödinger equation via the Lax-pair scattering
+- [2606.29272](https://arxiv.org/abs/2606.29272): PCGD: Physics-Guided Conditional Graph Diffusion for TCAD Device Simulation
+- [2606.29137](https://arxiv.org/abs/2606.29137): Quantum scrambling of algebras of observables: the Z2-symmetric case
+- [2606.29085](https://arxiv.org/abs/2606.29085): Complete virtual unwrapping and reading of a rolled Herculaneum papyrus
+- [2606.29065](https://arxiv.org/abs/2606.29065): A Unified Framework for Multi-Contact Path Planning in the Rolling Robot Systems
+- [2606.29025](https://arxiv.org/abs/2606.29025): A structure-preserving Chebyshev-filtered subspace iteration for the Bethe-Salpeter eigenvalue problem
+- [2606.29002](https://arxiv.org/abs/2606.29002): Gregory Nested Picard Iteration Schemes for Open Quantum Systems Governed by the Lindblad Equation
+- [2606.28996](https://arxiv.org/abs/2606.28996): On Surrogate Modeling of Static Response of AM Short-Fiber Thermoplastics Using Graph Neural Networks
+- [2606.28956](https://arxiv.org/abs/2606.28956): Vacuum stability in Geometric Trinity of Gravity
+- [2606.28817](https://arxiv.org/abs/2606.28817): Trust-Calibrated Certified Repair for Physics-Constrained Decisions under Localized Model Misspecification
+- [2606.28742](https://arxiv.org/abs/2606.28742): MetaMorphQ: Physics-Based Metamorphic Testing of Variational Quantum Circuits
+- [2606.28711](https://arxiv.org/abs/2606.28711): Dynamical stability of planar phase boundaries for hyperelastic materials of Hadamard type
+- [2606.28600](https://arxiv.org/abs/2606.28600): Neuromorphic Energy-Aware Learning for Adaptive Deep Brain Stimulation
+- [2606.28570](https://arxiv.org/abs/2606.28570): Digitizing Coaching Intelligence: An Agentic Framework for Holistic Athlete Profiling using VLM and RAG
+- [2606.28569](https://arxiv.org/abs/2606.28569): Data-driven linear analysis of turbulent flows
+- [2606.28546](https://arxiv.org/abs/2606.28546): NIVA: A Multimodal Foundation Model for Actionable Earth System Intelligence
+- [2606.28534](https://arxiv.org/abs/2606.28534): High-Performance Resilient Multi-GPU Hybrid Particle-in-Cell Monte Carlo Simulations at Scale
+- [2606.28530](https://arxiv.org/abs/2606.28530): Density Functions and Random Number Generators of α-Stable Distributions
+- [2606.28506](https://arxiv.org/abs/2606.28506): Twin Peaks: Resolving Features in the Binary Black Hole Mass Function with COSMIC-METISSE
+- [2606.28496](https://arxiv.org/abs/2606.28496): Polarization interference in exclusive V+jets at all orders in αs
+- [2606.28448](https://arxiv.org/abs/2606.28448): Measured-Subspace Consistency: A Plug-and-Play Operator for Diffusion Posterior Sampling in Accelerated MRI Reconstruction
+- [2606.28404](https://arxiv.org/abs/2606.28404): Financing Artificial Intelligence Infrastructure: Mapping AI Infrastructure Investment and Compute Governance Across Africa
+- [2606.28394](https://arxiv.org/abs/2606.28394): GPU-Accelerated Inverse Structural Anastylosis from Block Collapse Dynamics
+- [2606.28384](https://arxiv.org/abs/2606.28384): A Query-Driven Communication-Efficient Digital Twins Design for Autonomous Driving
+- [2606.28280](https://arxiv.org/abs/2606.28280): Surface Water Wave Scattering and the Hydrotope
+- [2606.28173](https://arxiv.org/abs/2606.28173): Gravitational-wave response functions for space-borne detectors based on multiple geometric time-delay interferometry links
+- [2606.28146](https://arxiv.org/abs/2606.28146): A statistically robust framework for detecting and classifying hysteresis patterns in astrophysical spectral evolution
+- [2606.28135](https://arxiv.org/abs/2606.28135): Probing the neutrino chemical potential with cosmological observations
+- [2606.28118](https://arxiv.org/abs/2606.28118): Scattering Amplitudes and Resonant Processes in QED with Chiral Chemical Potential and Chiral Magnetic Conductivity
+- [2606.28104](https://arxiv.org/abs/2606.28104): doi
+- [2606.28065](https://arxiv.org/abs/2606.28065): OperatorSHAP: Fast and Accurate Shapley Value Estimation for Neural Operators
+- [2606.27895](https://arxiv.org/abs/2606.27895): Mosaic: A Benchmark Suite for Differentiable Physics Solvers
+- [2606.27892](https://arxiv.org/abs/2606.27892): doi
+- [2606.27888](https://arxiv.org/abs/2606.27888): A Dynamical Low-rank Multilevel Monte Carlo Estimator for High-Dimensional Kinetic Equations
+- [2606.27871](https://arxiv.org/abs/2606.27871): LocalNav: Distilling Frontier VLMs and Embodied RL for On-Device Object Goal Navigation
+- [2606.27856](https://arxiv.org/abs/2606.27856): Simulating the Dynamics of Markovian Quantum Processes by Quantum Collision Models on Quantum Computers
+- [2606.27801](https://arxiv.org/abs/2606.27801): Bootstrapping two-loop six-gluon amplitudes in QCD
+- [2606.27775](https://arxiv.org/abs/2606.27775): HydroGrav: Precise hydrodynamics and gravitational waves for cosmological phase transitions
+- [2606.27756](https://arxiv.org/abs/2606.27756): No Cloning of Quantum Ensembles
+- [2606.27624](https://arxiv.org/abs/2606.27624): Physics-Guided Robotic Radiation Source Localization along Arbitrary Measurement Paths in Unstructured Environments
+- [2606.27602](https://arxiv.org/abs/2606.27602): Uncertainty-aware Power System Planning via Gradient Descent
+- [2606.27591](https://arxiv.org/abs/2606.27591): Exploring the physics behind the observed magnetic filaments in large scale radio galaxies
+- [2606.27513](https://arxiv.org/abs/2606.27513): Toward a Hybrid Digital Twin of Society: Quantifying Cognitive-Spatial Linkages Through Online-Offline Feedback Networks
+- [2606.27493](https://arxiv.org/abs/2606.27493): SU(4) Heisenberg model on the hyperhoneycomb lattice
+- [2606.27354](https://arxiv.org/abs/2606.27354): Error-Conditioned Neural Solvers
+- [2606.27344](https://arxiv.org/abs/2606.27344): VibeAct: Vibration to Actions for Contact-Rich Reactive Robot Dexterity
+- [2606.27311](https://arxiv.org/abs/2606.27311): Massive Cosmological Correlators from Flat Space: a Laplace-Space Approach
+- [2606.27304](https://arxiv.org/abs/2606.27304): A Multi-Fidelity Convolutional Autoencoder-Transfer Learning Framework for Guided-Wave-Based Damage Diagnosis Using Large Simulated and Limited Experimental Datasets
+- [2606.27294](https://arxiv.org/abs/2606.27294): Generative Models on Analog Hardware with Dynamics
+- [2606.27177](https://arxiv.org/abs/2606.27177): A hybrid IFENN solver for generalizable modeling of phase-field fracture initiation and propagation
+- [2606.27168](https://arxiv.org/abs/2606.27168): Deep learning model emulators for marine biogeochemistry forecasting from days to decades
+- [2606.27139](https://arxiv.org/abs/2606.27139): The Observer World: A Cryptographic Extension of Impagliazzo's Five Worlds
+- [2606.27119](https://arxiv.org/abs/2606.27119): Efficient foundation decoders for fault-tolerant quantum computing
+- [2606.27072](https://arxiv.org/abs/2606.27072): Performance of Low Mode Averaging on Twisted-Mass Fermion Ensembles at the physical pion mass point
+- [2606.27042](https://arxiv.org/abs/2606.27042): Low Complexity Kolmogorov-Arnold Network-based DPD for Analog RoF Fronthaul
+- [2606.27029](https://arxiv.org/abs/2606.27029): Symplectic Neural Networks for learning Generalized Hamiltonians
+- [2606.27017](https://arxiv.org/abs/2606.27017): Lattice patch structure for fixed-frequency transmon quantum computer with high-fidelity CNOT gates
+- [2606.26989](https://arxiv.org/abs/2606.26989): Physical Neural Networks Need Nonlinearity, Amplification, and Suppression for Learning
+- [2606.26892](https://arxiv.org/abs/2606.26892): The Sharp Edges of Calabi-Yau Manifolds: Designing Symmetric Models for Ricci-flat Metrics
+- [2606.26865](https://arxiv.org/abs/2606.26865): Quantum Physics-Informed Neural Networks for Solving Integro and Fractional PDEs
+- [2606.26830](https://arxiv.org/abs/2606.26830): pyDOF: a Python library for the design of discrete forward and inverse filters
+- [2606.26760](https://arxiv.org/abs/2606.26760): An Iterative Dual-Channel Neural Quantum State Algorithm for Selected Configuration Interaction
+- [2606.26751](https://arxiv.org/abs/2606.26751): Giant Second-Harmonic Generation in 3R-MoS2/MLM Hybrid Metasurfaces Cavities
+- [2606.26727](https://arxiv.org/abs/2606.26727): One-shot prediction of noise-induced bifurcations with reservoir computing
+- [2606.26713](https://arxiv.org/abs/2606.26713): LithoDreamer: A Physics-Informed World Model for Multi-Stage Computational Lithography
+- [2606.26646](https://arxiv.org/abs/2606.26646): Dynamic heterogeneity in sodium silicate melts via machine-learning potential
+- [2606.26573](https://arxiv.org/abs/2606.26573): doi
+- [2606.26547](https://arxiv.org/abs/2606.26547): Compiler-Driven Approximation Tuning for Hyperdimensional Computing
+- [2606.26477](https://arxiv.org/abs/2606.26477): Algebraic structures of the Lindblad equation
+- [2606.26416](https://arxiv.org/abs/2606.26416): Methane-Plume Segmentation From Hyperspectral Satellite Imagery Via Multimodal Deep Learning
+- [2606.26385](https://arxiv.org/abs/2606.26385): doi
+- [2606.26382](https://arxiv.org/abs/2606.26382): doi
+- [2606.26363](https://arxiv.org/abs/2606.26363): Bayesian Changepoint Detection for Smart Sensing of Battery Degradation: Cycle-Level Health Indicators and PyMC Implementation
+- [2606.26299](https://arxiv.org/abs/2606.26299): COrigami: An AI Pipeline for Co-Designing Flat-Foldable Visually Recognisable Origami
+- [2606.26272](https://arxiv.org/abs/2606.26272): Droplet Fusion as a Relaxation Process: Comparison with Shape Recovery of Newtonian and Viscoelastic Droplets
+- [2606.26230](https://arxiv.org/abs/2606.26230): Cutting with precision -- Leveraging Collapse Volumes to generate the next generation of zoom-in initial conditions
+- [2606.26220](https://arxiv.org/abs/2606.26220): Interpretable rule-based learning in an autonomous thermodynamic network
+- [2606.26176](https://arxiv.org/abs/2606.26176): Toward Mitigating Process-Induced Performance Degradation in 3.5D Heterogeneous Packages via Pre-Silicon Firmware Co-Optimization
+- [2606.26162](https://arxiv.org/abs/2606.26162): Dissipative Quantum Multiplicative Weights with Sampling Feedback: A Classically Hard Primitive Realized via Engineered Open-System Dynamics
+- [2606.25970](https://arxiv.org/abs/2606.25970): Dominance-Based Feasibility Inference for Packing-Constrained Pickup and Delivery Problems
+- [2606.25969](https://arxiv.org/abs/2606.25969): HI Simulations for Cosmology with the SKA Observatory
+- [2606.25957](https://arxiv.org/abs/2606.25957): From Rubble Simulation to Active Magnetic Mapping: Quantum Sensing for Disaster Response
+- [2606.25807](https://arxiv.org/abs/2606.25807): A Candidate Framework for Free-Space Quantum Key Distribution based on Geometrical-Configuration Modulation
+- [2606.25793](https://arxiv.org/abs/2606.25793): Monte Carlo Physics-informed Neural Networks for Inverse Multiscale Heat Conduction Problems via the Phonon Boltzmann Transport Equation
+- [2606.25776](https://arxiv.org/abs/2606.25776): Approaching the Quantum Limit of Optical Rotatory Dispersion: From First-Principles to Single-Photon Monochromators
+- [2606.25629](https://arxiv.org/abs/2606.25629): Event-Adaptive Motion Planning with Distilled Vision-Language Model in Safety-Critical Situations
+- [2606.25613](https://arxiv.org/abs/2606.25613): Holographic correlation functions of fermions in anisotropic plasma
+- [2606.25604](https://arxiv.org/abs/2606.25604): Mechanical response of quasi-two-dimensional colloidal clusters under uniaxial tension
+- [2606.25532](https://arxiv.org/abs/2606.25532): Agentic evolution of physically constrained foundation models
+- [2606.25502](https://arxiv.org/abs/2606.25502): A Differentiable DFT-Based Framework for Inverse Materials Design
+- [2606.25404](https://arxiv.org/abs/2606.25404): HEART: Coordination of Heterogeneous Expert Agents for Physically Grounded Robotic Task Planning
+- [2606.25348](https://arxiv.org/abs/2606.25348): Self Capacitive Tactile Sensor System designed for Companion Robots
+- [2606.25333](https://arxiv.org/abs/2606.25333): Deterministic Non-Smooth Safety via Dual-Algebraic Control Barrier Functions
+- [2606.25330](https://arxiv.org/abs/2606.25330): Routing Codes: High-Rate Quantum LDPC Codes with Short, Parallel Non-Local Connectivity
+- [2606.25323](https://arxiv.org/abs/2606.25323): Physics-Informed Neural Networks for the Time-Domain Maxwell Equations with Split-Field Perfectly Matched Layers
+- [2606.25277](https://arxiv.org/abs/2606.25277): An Integrated Hardware-Software Design for Low-Data Spatial Defect Detection in Robotic Visual Inspection with Hybrid Optoelectronic Neural Networks
+- [2606.25275](https://arxiv.org/abs/2606.25275): A convolutional neural network surrogate for hierarchical homogenization: fast elastic moduli prediction of digital rocks
+- [2606.25229](https://arxiv.org/abs/2606.25229): Accelerating Chemical Potential Calculations with Minimal Normalizing Flows
+- [2606.25133](https://arxiv.org/abs/2606.25133): doi
+- [2606.25125](https://arxiv.org/abs/2606.25125): Liquid Jet in Crossflow: Review of Breakup modes and Injector Geometry Effects
+- [2606.25065](https://arxiv.org/abs/2606.25065): Self-supervised Garment Dynamics with Persistent Wrinkles
+- [2606.25026](https://arxiv.org/abs/2606.25026): WaveDM.jl: An Adaptable Simulation Framework for Dynamics of Baryonic and Wave Dark Matter on Galaxy Scales
