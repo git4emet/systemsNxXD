@@ -1,0 +1,330 @@
+# Conversation-Recovered Prototype and Requisite-Skill Atlas
+
+**Owner:** `git4emet/systemsNxXD`  
+**Scope:** conversation-derived prototype recovery, capability decomposition, repository ownership, and the current coordinate contract.  
+**Status:** living registry; initial cross-thread synthesis with selected repository source inspection.
+
+## 1. Recovery rule
+
+A prototype described in a conversation is recovered to the extent that the conversation identifies its context, purpose, modules, behaviors, interfaces, and stated capabilities. Original source code is not a prerequisite for recording that recovery or decomposing its requisite skills.
+
+Keep these evidence states distinct:
+
+- `conversation_recovered`: prototype identity, context, and capabilities are described in a conversation.
+- `specification_recovered`: schemas, diagrams, formulas, interface contracts, or implementation descriptions are available.
+- `source_recovered`: an identifiable source artifact or repository file has been inspected.
+- `tests_present`: repository test cases exist; this does not mean they were executed during this review.
+- `implementation_tested`: executable behavior was run and the relevant tests passed in a recorded environment.
+- `deployment_verified`: a running deployed service was independently observed.
+
+Do not make a source-file search a gate before creating a conversation-derived prototype or skill record. Source code, archives, diagrams, and tests deepen the record and may reveal additional skills.
+
+## 2. Canonical coordinate contract
+
+The coordinate runtime exposes available space. The caller supplies the traversal.
+
+```text
+CURRENT POINT
+↓
+RESOLVE CORRELATE SPACE
+↓
+ENUMERATE AVAILABLE POINTS
+↓
+PRESENT AVAILABLE AVENUES
+↓
+SELECTION OCCURS
+↓
+INSTANTIATE SELECTED TRANSITION
+↓
+RECORD NEW POINT + SCRIPT
+↓
+CONTINUE
+```
+
+`P_t` is the current point.
+
+`C(P_t) = {P_1, P_2, ..., P_n}` is the set of points available from the current point.
+
+`A_i = (P_t → P_i)` is an avenue: a relation from the current point to another point.
+
+The resolver does not rank, prioritize, recommend, approve, deny, score, or evaluate avenues. No such fields belong in the coordinate contract. A selection is supplied by the caller; unselected avenues remain available correlate potentials.
+
+Canonical point shape:
+
+```json
+{
+  "point_id": "p:...",
+  "coordinate": {},
+  "relations": [
+    {
+      "to": "p:...",
+      "transform": "...",
+      "script": "..."
+    }
+  ]
+}
+```
+
+Traversal record:
+
+```json
+{
+  "event_id": "e:...",
+  "from": "p:...",
+  "via": "relation:...",
+  "to": "p:...",
+  "script": "...",
+  "timestamp": "..."
+}
+```
+
+The current repository implementation uses the names `point`, `available_avenues`, `avenue`, `from`, `to`, and `script`. Keep adapters explicit when translating between naming conventions.
+
+Current event vocabulary includes `point.discovered`, `relation.discovered`, `coordinate.updated`, `avenue.available`, `avenue.removed`, `transition.instantiated`, and `script.recorded`. Do not introduce recommendation, preference, approval, denial, or priority events into this runtime.
+
+## 3. Repository ownership discovered
+
+| Repository | Ownership / contribution | Evidence inspected |
+|---|---|---|
+| [systemsNxXD](https://github.com/git4emet/systemsNxXD) | Canonical shared coordinate runtime, Golden Event contract, and adapter-console owner | README, repository map, coordinate core, bridge, contract, fixtures, tests |
+| [XDcomms](https://github.com/git4emet/XDcomms) | Consumer of the shared event contract; SSE transport and explicit selection client | README, provider README, client, tests, pinned contract lock |
+| [DoinBetter-Floodwater](https://github.com/git4emet/DoinBetter-Floodwater) | Floodwater / Team AET GSOC / AHJ / Drill Coordinator domain skills | README and existing `skills.md` |
+| [DoinBetter-Fractal-Whisper](https://github.com/git4emet/DoinBetter-Fractal-Whisper) | Speech-to-text context and heyMicojava SVG metadata-to-tilesheet pipeline | README and `scripts/build_tilesheet.py` |
+| [webgpu-sieve-sorting-cam-trobe](https://github.com/git4emet/webgpu-sieve-sorting-cam-trobe) | WebGPU benchmark skills: particle simulation, matrix multiplication, image processing | README |
+| [webgpu-sieve-sorting-strobe-cam](https://github.com/git4emet/webgpu-sieve-sorting-strobe-cam) | WebGPU neon / fluid-like visual simulation | README |
+| [mobiius-ops-console](https://github.com/git4emet/mobiius-ops-console) | Historical / adjacent prototype source; retain and extract reusable artifacts without importing its legacy evaluation-based router into the canonical coordinate core | README, hypergraph router, signal stubs, guest handoff |
+| [DoinBetter-ALTA-Survey](https://github.com/git4emet/DoinBetter-ALTA-Survey) | Domain-specific survey prototype; capability detail remains to be recovered | README only |
+
+### Repository identity cautions
+
+Repository names are not reliable evidence of their contents:
+
+- `Meta-HyperwebMCaPiB0xG0PHiRayTracing` currently describes an AI CEO WebMCP browser demo, not a ray-tracing engine. Reusable skills evidenced by its README are browser tool registration, MCP tool exposure, live state access, React integration, and sessionStorage state.
+- `skillcoin-tensorings` currently contains a Roundcube ElasticLayouts plugin snapshot, not evidence of a SkillCoin or tensoring implementation.
+- `stateStateColorStates` currently contains a Roundcube TaskWatermark plugin snapshot, not a Möbii³us state-color engine.
+- `HeptradiControlFeeds` currently contains a Roundcube Swipe plugin snapshot, not a streaming-feed engine.
+- `ContactResumes` is identified in the repository map as an attributed Skill Seekers adapter candidate.
+- `roundcubemall` is identified as upstream Roundcube mail software; preserve its license and attribution.
+- `heyMico.doinbetter` was visible in the repository inventory, but its root README fetch returned 404. Its capabilities remain uninspected here.
+
+Do not promote a repository into a module merely because its name resembles a project term.
+
+## 4. Core runtime modules and requisite skills
+
+### 4.1 0.init bootstrap and runtime
+**Requisite skills:** environment inspection; configuration loading; module discovery; runtime initialization; dependency resolution; state restoration; module registration; lifecycle management; local-first execution; reproducible bootstrap; CLI and service packaging.
+
+### 4.2 Möbii³us coordinate core
+**Requisite skills:** point addressing; correlate-space representation; relation registration; available-avenue enumeration; explicit selection intake; transition instantiation; transform descriptor preservation; script recording; current-point advancement; coordinate serialization; many-to-one projection that retains canonical address identity.
+
+### 4.3 Transform and geometry engine
+**Requisite skills:** transformation representation; coordinate mapping; transform composition; reversible mapping where defined; SVG/vector geometry; toroidal and lattice geometry; fractal iteration; projection and inverse projection; numerical geometry.
+
+### 4.4 Event and receipt runtime
+**Requisite skills:** event identity; timestamp preservation; canonical JSON bytes; UTF-8 serialization; SHA-256 receipts; previous-receipt linkage; append sinks; receipt verification; replay; idempotent event handling; event schema validation; cross-language fixtures.
+
+### 4.5 Persistence and bridge
+**Requisite skills:** SQLite; transaction boundaries; WAL configuration; synchronous durability settings; commit-before-state-advance; restart replay; stale-point detection; duplicate event handling; local HTTP endpoints; SSE framing; heartbeat and reconnect behavior; cursor-based resume.
+
+### 4.6 Artifact Atlas and source registry
+**Requisite skills:** conversation-source capture; source identifiers; artifact manifests; file discovery; MIME detection; metadata extraction; archive inventory; nested archive traversal; content hashing; PDF/DOCX/PPTX/XLSX parsing; OCR; code extraction; SVG parsing; image metadata; provenance linking; source-to-skill mapping.
+
+### 4.7 Provenance and lineage graph
+**Requisite skills:** source attribution; artifact lineage; version relationships; entity resolution; prototype-to-module mapping; module-to-skill mapping; dependency edges; source references; cross-thread references; preservation of original wording and derived interpretations as separate records.
+
+### 4.8 RAG and correlate retrieval
+**Requisite skills:** chunking; semantic indexing; embedding retrieval; keyword retrieval; context expansion; source-linked retrieval; query-to-source traceability; coordinate discovery from additional context; retrieval updates; SSE publication of newly visible coordinates.
+
+### 4.9 Buddy runtime
+**Requisite skills:** conversational state; context management; adaptive REPL; tool invocation; session persistence; source-aware response composition; script handoff; runtime adapters; multimodal input handling; interface-state synchronization.
+
+### 4.10 Spin Kernel / Verb Engine
+**Requisite skills:** language parsing; verb and action extraction; semantic tuple construction; contextual windowing; tuple graph construction; discrete indexing; prime and modular arithmetic; vocabulary mapping; source-linked semantic representation.
+
+### 4.11 Fractal Conductor and agent adapters
+**Requisite skills:** recursive execution; local transform execution; capability declaration; interface binding; tool discovery; event subscription; execution tracing; multi-agent transport; adapter lifecycle. Agents expose local transforms and relations; they do not vote or govern the coordinate traversal.
+
+### 4.12 Memory and TriBuffer
+**Requisite skills:** context buffering; temporal indexing; retrieval; session continuity; append-only memory records; source references; state reconstruction; memory compaction; replay.
+
+## 5. Interface, visualization, and media modules
+
+### 5.1 Active Keyboard / AARS
+**Requisite skills:** keyboard event capture; input event normalization; contextual completion; action/verb extraction; desktop and browser integration; accessibility; local state display; event emission.
+
+### 5.2 Fizzyscape / FizzyScreen / HUD
+**Requisite skills:** React and TypeScript; component architecture; SVG DOM rendering; graph and timeline views; dirty-sector updates; event-driven rendering; responsive layouts; interactive state inspection; visual provenance links.
+
+### 5.3 Phase 7 Visualizer
+**Requisite skills:** Three.js; WebGL; GLSL; WGSL where applicable; shader compilation; uniform and buffer layouts; semantic uniform schemas; fractional payload packing; precision handling; shader reflection; GPU profiling; animation; particle rendering; simulation integration.
+
+### 5.4 Möbii³us Lattice / vΩ
+**Requisite skills:** SVG authoring and parsing; vector geometry; lattice rendering; toroidal projection; fractal visualization; diagram generation; PDF generation; metadata preservation; coordinate labels and interaction.
+
+### 5.5 Inverse Geometry / image transfer
+**Requisite skills:** image registration; coordinate transforms; mirroring; stencil and transfer-sheet generation; pixel mapping; compositing; source-to-skin rendering; visual comparison.
+
+### 5.6 Physics and simulation
+**Requisite skills:** Rapier or Ammo.js; rigid-body simulation; collision detection; particle systems; simulation time steps; GPU/CPU synchronization; parameter control.
+
+## 6. Streaming and environmental modules
+
+### 6.1 AET FieldStream
+**Requisite skills:** event streaming; asynchronous processing; stream normalization; buffering; source timestamps; telemetry ingestion; time-series representation; persistence.
+
+### 6.2 RiFTRiXStream / EagleEcho
+**Requisite skills:** WebSockets; WebRTC; SSE; incremental decoders; chunking; backpressure; reconnect; stream checkpoints; sequence continuity; payload framing.
+
+### 6.3 Environmental Consciousness
+**Requisite skills:** sensor integration; environmental data normalization; time-series ingestion; spatial context; event correlation; field telemetry; stream persistence.
+
+### 6.4 Fractional computation
+**Requisite skills:** Caputo fractional derivatives; fractional integration; numerical approximation; convolution and memory kernels; temporal smoothing; signal processing; GPU acceleration; streaming-window management.
+
+### 6.5 Adaptive transmission
+**Requisite skills:** bitrate adaptation; congestion control; latency measurement; buffer management; packet-loss handling; throughput monitoring; graceful degradation.
+
+## 7. Integration, resource, and operational modules
+
+### 7.1 Mercury Mirror Exchange
+**Requisite skills:** capability declaration; contact-point discovery; input/output contract mapping; protocol binding; REST; GraphQL; pub/sub; WebSockets; gRPC; bidirectional data exchange; vocabulary transcoding; source attribution.
+
+### 7.2 Semantic Transcoder / Vocab Join
+**Requisite skills:** ontology mapping; vocabulary normalization; identifier mapping; schema translation; domain adapter authoring; round-trip fixture testing; preservation of original source terms.
+
+### 7.3 CRED / CREDmcAPI / TOFAR
+**Requisite skills:** resource accounting; usage metering; cost modeling; query-cost estimation; budget calculation; ledger serialization; hash-chain receipts; resource provenance; transaction schema representation; smart-contract engineering when a chain implementation is explicitly present.
+
+CRED, TOFAR, TOPHDARC, and TOFARKLE are retained as project receipt/resource namespaces in the current shared contract. A receipt digest establishes consistency with recorded bytes; it does not authenticate a signer or establish external truth.
+
+### 7.4 TinyBox and Conductor Core
+**Requisite skills:** edge computing; local runtime packaging; resource-constrained execution; service orchestration; task dispatch; process lifecycle; local persistence; container deployment; cloud/edge bridging.
+
+### 7.5 Gopher State / 811 operations
+**Requisite skills:** geospatial records; ticket intake; utility coordination; contractor and crew records; equipment tracking; schedule coordination; traffic and material dependencies; inspection records; operational event exchange.
+
+### 7.6 Domain infrastructure
+**Requisite skills:** DNS; TLS; hosting; domain-to-service routing; authentication integration; CI/CD; deployment manifests; health endpoints; observability; per-domain configuration.
+
+## 8. Research and mathematical modules
+
+### 8.1 42-LOCKED foundation
+**Requisite skills:** prime factorization; sphenic numbers; combinatorics; Catalan structures; complex dynamics; Julia iteration; Fibonacci recurrence; golden-ratio arithmetic; modular arithmetic; discrete indexing.
+
+The user's conceptual mapping is preserved as a project-specific framework: 42 = 2×3×7; sphenic as discrete foundation; Catalan as combinatorial composition; Julia dynamics as iterative geometry; Fibonacci/φ as proportional organization. These mappings are not asserted as standard mathematical equivalences.
+
+### 8.2 Spin / prime indexing
+**Requisite skills:** prime sequence generation; modular arithmetic; indexing; discrete state encoding; tuple-to-index mapping; graph construction.
+
+### 8.3 Hypergraph research
+**Requisite skills:** graph theory; hypergraphs; incidence structures; higher-order relationships; Fano plane; Laplacian operators; graph serialization; topology visualization.
+
+### 8.4 Fractional mathematics
+**Requisite skills:** fractional differential equations; nonlocal operators; numerical methods; memory-dependent systems; stability analysis; implementation profiling.
+
+## 9. Domain and application contexts recovered from project conversations
+
+These are prototype/application contexts, not automatically separate runtime engines:
+
+- **DoinBetter:** mission, services, community, resource coordination, CRED.
+- **HeyMico:** assistant, voice, interaction, knowledge, Buddy-facing surfaces.
+- **TimmyU:** identity and personal context.
+- **Tailly:** utilities, topology, and routing.
+- **WinXM:** creative production and rendering.
+- **AHIG:** research and experimental visualization.
+- **Gopher State:** real-world operational coordination and 811 workflows.
+- **Fourth of July projects:** event and community organization.
+- **Fizzbox:** display and interactive visualization.
+- **EagleEcho:** streaming and RiFTRiXStream lineage.
+- **Active Keyboard:** contextual input and action capture.
+- **Quantum Learning Map:** Composite Kernel v0.2 specification.
+- **Inverse geometry:** source design → mirrored transfer sheet → final readable HUD/pixel state.
+
+The eight-domain infrastructure note in `systemsNxXD` assigns roles to doinbetter.com, doinbetter.org, heymico.com, heymico.org, timmyu.in, tailly.cc, winxm.art, and ahig.xyz. It explicitly distinguishes contributed target architecture from verified deployment.
+
+## 10. Historical material and canonical separation
+
+The following are recoverable historical prototype concepts and may contribute isolated skills, but are not stages in the current coordinate traversal:
+
+- Composite Kernel v0.2: ingestion → verb extraction → tuple graph → divergence field → correction engine → coherence update → harmonic progression → ledger → agent loop.
+- Seven Gates, Guardian verdicts, trust floors, DI/decisional intensity, priority/ranking concepts, and approval/denial routing from older hypergraph router variants.
+- Older Conductor decision and best-route machinery.
+- Older FAST/FART and historical terminology.
+
+The current coordinate runtime does not inherit their evaluation or selection semantics. Technical capabilities such as immutable records, hashing, source attribution, serialization, event capture, or visualization may be extracted independently where useful.
+
+## 11. Conversation-derived prototype index
+
+Initial prototype families recovered from the shared project conversations and supplied project documents:
+
+1. Möbii³us Core / vΩ / TOFAR.
+2. 0.init bootstrap and event runtime.
+3. Buddy and Adaptive REPL.
+4. Spin Kernel / Verb Engine.
+5. Artifact Atlas.
+6. Provenance and knowledge graph.
+7. Mercury Mirror Exchange.
+8. Semantic Transcoder / Vocab Join.
+9. Active Keyboard / AARS.
+10. Fizzyscape / Fizzy HUD.
+11. Phase 7 Visualizer.
+12. Möbii³us Lattice.
+13. AET FieldStream.
+14. Environmental Consciousness.
+15. RiFTRiXStream / EagleEcho.
+16. Fractional Calculus / Smoothing.
+17. CRED / CREDmcAPI.
+18. TinyBox.
+19. Conductor Core.
+20. Gopher State / 811 operations.
+21. Quantum Learning Map / Composite Kernel.
+22. Inverse Geometry / image transfer.
+23. Fizzbox.
+24. Eight-domain infrastructure.
+25. Hybrid Fractional Payload Schema (HFPS), a proposed synthesis from the shader research conversation, not yet a verified existing implementation.
+
+This index is an initial recovered set, not a claim that every historical conversation has been traversed. Each additional conversation may add modules, variants, interfaces, or skills.
+
+## 12. Recursive aggregation procedure
+
+For every conversation-derived prototype:
+
+1. Preserve the source thread and the exact prototype mention.
+2. Capture surrounding context, purpose, actors, constraints, and described behaviors.
+3. Extract named modules and interfaces.
+4. Decompose each module into requisite skills.
+5. Cross-reference skills shared with other prototypes.
+6. Map the prototype and its skills to the repository that owns the implementation or domain.
+7. Record code, schemas, diagrams, archives, and tests as additional source artifacts when found.
+8. Preserve version lineage and conflicting historical variants.
+9. Add tests or fixtures for recovered behavior where the repository lacks them.
+10. Record implementation and deployment evidence separately.
+
+Every skill record should retain: stable skill ID, module ID, description, inputs, outputs, interfaces, dependencies, source thread, source artifact references, repository owner, evidence state, and test references.
+
+Do not use priority, rank, recommendation, score, approval, risk, or consensus fields in the coordinate or skill relationship model. Repository ownership and technical dependency are descriptive relationships, not preferred-path semantics.
+
+## 13. Current inspection boundary
+
+Repository artifacts inspected during this pass include:
+
+- `systemsNxXD/packages/coordinate_core/dr_shift.py`
+- `systemsNxXD/packages/contracts/golden-event.ts`
+- `systemsNxXD/services/golden_event_bridge/bridge.py`
+- `systemsNxXD/services/golden_event_bridge/http_server.py`
+- `systemsNxXD/tests/test_coordinate_core.py`
+- `systemsNxXD/tests/test_event_bridge.py`
+- `XDcomms/services/providers/golden-client.ts`
+- `XDcomms/services/providers/golden-client.test.ts`
+- `XDcomms/shared-contract.lock.json`
+- `DoinBetter-Floodwater/skills.md`
+- `DoinBetter-Fractal-Whisper/scripts/build_tilesheet.py`
+- The README files of the repositories listed in section 3.
+
+The tests were inspected as source, not executed in this review. The local bridge is documented as loopback-only; the repository README explicitly says it has no public authentication, WebSocket transport, or physical actuation. No production deployment is asserted.
+
+The four supplied project documents and the vΩ diagram bundle are also part of the current local source set. The full historical conversation corpus, all Dropbox contents, all Gmail attachments, all nested archives, and every repository have not yet been recursively traversed.
+
+## 14. Immediate continuation
+
+Continue recovering prototypes from conversation context first, then enrich their records from repositories and archives. Use `systemsNxXD` as the canonical coordinate and shared-contract owner; keep `XDcomms` as a consumer; add domain-specific skill material to the repositories that own those domains. Do not flatten all source projects into one repository or treat a repository name as proof of its contents.
