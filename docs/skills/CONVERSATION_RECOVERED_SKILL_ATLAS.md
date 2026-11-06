@@ -328,3 +328,61 @@ The four supplied project documents and the vΩ diagram bundle are also part of 
 ## 14. Immediate continuation
 
 Continue recovering prototypes from conversation context first, then enrich their records from repositories and archives. Use `systemsNxXD` as the canonical coordinate and shared-contract owner; keep `XDcomms` as a consumer; add domain-specific skill material to the repositories that own those domains. Do not flatten all source projects into one repository or treat a repository name as proof of its contents.
+
+
+## 15. Additional source recovery: vΩ lattice bundle
+
+The supplied vΩ JSON and PDF/SVG bundle add the following explicit identity fields:
+
+- Project: Möbii³us, Fractal Adaptive System Toolkit, vΩ.
+- Codename: TOFAR, Temporal Oscillation Fractal Alignment Resource.
+- Lead module: Buddy, Adaptive REPL + Fractal Conductor.
+- Primary mode: Recursive Self-Synchronization via Fractional Tensor Lattice.
+- Core principle as written in the artifact: “Floods as quantum plateaus → chirality as resource → recursion as coherence → harmony as output.”
+- Bundle generation timestamp: 2025-11-12.
+
+The rendered lattice diagram labels six seven-unit sectors:
+
+| Address range | Diagram label |
+|---|---|
+| 1–7 | Physical / Quantum |
+| 8–14 | Environmental / Planetary |
+| 15–21 | Cognitive / Linguistic |
+| 22–28 | Emotional / DreamStream |
+| 29–35 | Ethical / Guardian |
+| 36–42 | Meta / Simulation |
+
+Additional diagram labels: “Chirality Payloads,” “Coherence Uplift,” and the sequence “Inverse Recursion: Snapshot → R⁻¹ → Reinject → Log.”
+
+These are recovered diagram labels and conceptual groupings. They do not define executable operators, physical measurements, or a deployed 42-step runtime. The Ethical / Guardian sector is a historical domain label; it does not add an ethical evaluator or gate to the current coordinate core.
+
+Requisite skills exposed by this artifact:
+- Six-domain lattice representation and labeling.
+- Seven-unit sector indexing.
+- Snapshot capture and state serialization.
+- Inverse-transform representation, where a concrete transform is specified.
+- Reinjection and event logging.
+- Chirality payload representation.
+- Coherence-state visualization.
+
+## 16. Additional modules from cross-thread context
+
+### 16.1 Guardian Telemetry
+**Requisite skills:** state observation; event recording; change-log capture; state correlation; phase-plane visualization; tensor-transition visualization; telemetry presentation; source-linked observations.
+
+The Core Integration source explicitly frames Guardian as an observation and telemetry layer, not an AI ethics judge. Preserve that source framing. The vΩ diagram's “Ethical / Guardian” label remains a historical domain label and does not create a decision stage.
+
+### 16.2 Resource Economics / Latent Inventory
+**Requisite skills:** resource inventory modeling; waste-stream characterization; recoverable-resource mapping; processing-cost estimation; recovered-value accounting; net-value calculation; provenance of material flows; cross-sector resource relationships.
+
+Conversation examples include leaves to compost/biochar/mulch, reclaimed aggregate to fill/recycled concrete, waste heat to district heating, idle compute to rendering, and unused space to micro-logistics. These are example pathways, not verified operating deployments.
+
+### 16.3 Connector Tool Bus
+**Requisite skills:** connector capability discovery; connection-state inspection; read-path inventory; external write-surface identification; protocol mapping; tool/work-mode discovery; reauthentication state reporting; action receipt capture.
+
+The Adobe Express Diagram Build source records a historical tool-bus snapshot with Gmail, Dropbox, and Asana connected for read workflows, Conductor requiring reauthentication, and Zoom Revenue Accelerator returning sparse results. It also records work-mode lanes and explicitly states that no writes, sends, deletes, shares, or drafts were made. Treat this as a dated connector-status observation, not a statement of current account connectivity.
+
+### 16.4 Thirteen-agent / twelve-space local transform model
+**Requisite skills:** local transform execution; coordinate crossing; correlate reveal; local compression; coordinate resolution; relation exposure; script recording.
+
+The conversation-derived model describes agents as coordinate revealers. They expose local relations; they do not deliberate, vote, or govern one another. The stated 13-agent / 12-space configuration is a project design description, not a verified running agent fleet.
