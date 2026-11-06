@@ -500,3 +500,16 @@ Recovered contributions:
 - **vΩ bundle:** project identity, TOFAR codename, Buddy lead module, fractional tensor lattice description, six-domain diagram labels, and vector-artifact metadata.
 
 These documents are specifications and conversation-derived descriptions. They do not independently prove a deployed connector mesh, production agent fleet, or executable six-domain physical model.
+
+## 14. Civic Moonflowers, PartyChain, HGraph, and legacy-router extraction
+
+A separate [Civic Moonflowers and Legacy Router Source-Facet Extraction](civic-moonflowers-source-facets.md) records:
+- PartyChain/CatLabs product schemas, rooms, action IDs, person roles, workflows, and source manifests;
+- the exact representation mismatch in the PartyChain JSON: its title says hypergraph, but its data uses binary `from`/`to` edges and has no hyperedge participant sets;
+- the PRVPDA/PPPVPDCMAS skill manifest as a specification whose hardware and mathematical claims still require external/source verification;
+- the existing HGraph typed receipt lens, which verifies receipts and passes typed temporal scalars through HGraph;
+- the legacy `mobiius-ops-console/src/router/hypergraph.py` prototype, which is a 42×42 toroidal address/node router with SevenGates and trust/DI logic, not a general hypergraph implementation.
+
+The legacy router's isolated reusable facets are retained as historical skills: address projection, event records, hash-chain receipts, tamper detection, immutable payload patterns, capability registry, artifact lifecycle, and schema validation. Its trust-floor, gate, verdict, and allow/reject routing behavior remains excluded from the canonical coordinate core.
+
+Two repository artifacts remain unparsed in this pass: `Recent arXiv folds into Buddy Skills.txt` (2,722,288 bytes; GitHub text extraction returned an empty body) and `3D_agent_shared_skill_schema_mapping.pdf` (identified but not text-extracted). They remain source-inventory entries, not assumed evidence.
