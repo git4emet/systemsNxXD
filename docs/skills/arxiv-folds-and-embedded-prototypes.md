@@ -148,3 +148,7 @@ Retain its source inventory, component references, and technical capabilities. D
 - event receipt and stream visualization.
 
 All facets are recorded independently of loop closure or implementation fitness. Evidence states remain distinct: embedded source code, design specification, conversation claim, tested behavior, and verified deployment.
+
+## 9. Identifier inventory
+
+The 205 unique identifiers were extracted into the separate [arXiv Identifier Inventory](../research/arxiv-identifier-inventory-buddy-skills-fold.md). The inventory links each identifier to its arXiv abstract page. It is a discovery index only; titles and metadata still require verification.
